@@ -1,0 +1,407 @@
+/* Entrance variations 4 and 5 (studio mockups of the public portal): The Marquee, The Switch Track.
+   Scoped with the ent- prefix like entrance.css. The scenes themselves are drawn on canvas;
+   this file only places the readable copy and the controls over them. */
+
+.ent-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Hidden hosts for the films the canvases draw (kept in the page so browsers keep decoding). */
+.ent-canvas-clips {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 2px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.ent-canvas-clips video {
+  width: 2px;
+  height: 2px;
+}
+
+.ent-mq-hint-touch,
+.ent-tr-hint-touch {
+  display: none;
+}
+@media (hover: none), (pointer: coarse) {
+  .ent-mq-hint-fine,
+  .ent-tr-hint-fine {
+    display: none;
+  }
+  .ent-mq-hint-touch,
+  .ent-tr-hint-touch {
+    display: inline;
+  }
+}
+
+/* ======================================================================
+   4. THE MARQUEE
+   ====================================================================== */
+.ent-mq {
+  background: #140a12;
+}
+.ent-mq-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ent-mq-halves {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: opacity 500ms ease;
+}
+.ent-mq[data-chosen] .ent-mq-halves,
+.ent-mq[data-chosen] .ent-mq-hint {
+  opacity: 0;
+}
+.ent-mq-half {
+  position: relative;
+  min-width: 0;
+}
+.ent-mq-copy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(34rem, calc(100% - 2 * var(--gutter)));
+  transform: translateX(-50%);
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  text-align: center;
+  transition: opacity 360ms ease;
+}
+/* a pool of shade behind the copy so it reads over the lit bulbs */
+.ent-mq-copy::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -36px -48px -40px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(20, 10, 18, 0.82), rgba(20, 10, 18, 0.55) 60%, rgba(20, 10, 18, 0));
+  pointer-events: none;
+}
+.ent-mq[data-hover="w"] .ent-mq-half--t .ent-mq-copy,
+.ent-mq[data-hover="t"] .ent-mq-half--w .ent-mq-copy {
+  opacity: 0.5;
+}
+.ent-mq-promise {
+  margin: 0;
+  font-weight: 700;
+  font-size: clamp(1.15rem, 1.7vw, 1.75rem);
+  line-height: 1.2;
+  color: var(--w-accent);
+}
+.ent-mq-line {
+  margin: 0;
+  max-width: 36ch;
+  font-size: clamp(0.9375rem, 1.05vw, 1.0625rem);
+  line-height: 1.5;
+  color: rgba(255, 246, 232, 0.88);
+}
+.ent-mq-half--w .ent-mq-promise,
+.ent-mq-half--w .ent-mq-line {
+  font-family: var(--font-ent-wonder-body), var(--font-hub), sans-serif;
+}
+.ent-mq-half--t .ent-mq-promise,
+.ent-mq-half--t .ent-mq-line {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+}
+.ent-mq-half--t .ent-mq-promise {
+  font-style: italic;
+  font-stretch: 112%;
+}
+/* Thrillverse's own pairing: yellow on cobalt */
+.ent .ent-mq-half--t .ent-enter {
+  background: #ffb800;
+  color: #12106b;
+}
+.ent .ent-mq-half--w .ent-enter {
+  color: #1a1024;
+}
+
+.ent-mq-hint {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--foot-h) + 8px);
+  margin: 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: rgba(255, 236, 204, 0.86);
+  pointer-events: none;
+  transition: opacity 400ms ease;
+}
+
+/* Stacked halves on phones and portrait screens (matches the engine's layout switch). */
+@media (max-width: 767px), (max-aspect-ratio: 1/1) {
+  .ent-mq-halves {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .ent-mq-copy {
+    top: 60%;
+    gap: 10px;
+  }
+  .ent-mq-line {
+    display: none;
+  }
+  .ent-mq-hint {
+    display: none;
+  }
+}
+@media (max-height: 700px) and (min-aspect-ratio: 1/1) {
+  .ent-mq-line {
+    display: none;
+  }
+}
+
+/* ======================================================================
+   5. THE SWITCH TRACK
+   ====================================================================== */
+.ent-tr {
+  background: #22123d;
+}
+.ent-tr-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.ent-tr[data-over-portal] .ent-tr-canvas {
+  cursor: pointer;
+}
+.ent-tr-layout {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transition: opacity 500ms ease;
+}
+.ent-tr-layout > * {
+  pointer-events: auto;
+}
+.ent-tr[data-riding] .ent-tr-layout {
+  opacity: 0;
+}
+
+.ent-tr-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(var(--bar-h) + 1vh);
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-ent-wonder), var(--font-hub), sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.6rem, 6.2vw, 6rem);
+  line-height: 0.9;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #fff1d6;
+  pointer-events: none;
+}
+.ent-tr-hint {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(var(--bar-h) + 1vh + clamp(2.6rem, 6.2vw, 6rem) + 14px);
+  margin: 0;
+  padding: 0 var(--gutter);
+  text-align: center;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  color: rgba(255, 238, 214, 0.86);
+  pointer-events: none;
+}
+
+.ent-tr-block {
+  position: absolute;
+  bottom: calc(var(--foot-h) + 14px);
+  width: min(30rem, 34vw);
+  display: grid;
+  gap: 8px;
+  transition: opacity 260ms ease;
+}
+.ent-tr-block--w {
+  left: var(--gutter);
+  justify-items: start;
+}
+.ent-tr-block--t {
+  right: var(--gutter);
+  justify-items: end;
+  text-align: right;
+}
+.ent-tr[data-points] .ent-tr-block:not([data-set]) {
+  opacity: 0.62;
+}
+.ent-tr-name {
+  margin: 0;
+  color: #fff6e6;
+  white-space: nowrap;
+}
+.ent-tr-block--w .ent-tr-name {
+  font-family: var(--font-ent-wonder), var(--font-hub), sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 3.6vw, 3.6rem);
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+.ent-tr-block--t .ent-tr-name {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: 125%;
+  font-size: clamp(1.5rem, 2.5vw, 2.6rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.ent-tr-promise {
+  margin: 0;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.3vw, 1.3rem);
+  line-height: 1.25;
+  color: var(--w-accent);
+}
+.ent-tr-line {
+  margin: 0 0 4px;
+  max-width: 34ch;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: rgba(255, 238, 220, 0.82);
+}
+.ent-tr-block--w .ent-tr-promise,
+.ent-tr-block--w .ent-tr-line {
+  font-family: var(--font-ent-wonder-body), var(--font-hub), sans-serif;
+}
+.ent-tr-block--t .ent-tr-promise,
+.ent-tr-block--t .ent-tr-line {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+}
+.ent .ent-tr-block--t .ent-enter {
+  background: #ffb800;
+  color: #12106b;
+}
+.ent .ent-tr-block--w .ent-enter {
+  color: #1a1024;
+}
+
+/* The points lever: the arm leans toward the line that is set. */
+.ent .ent-tr-lever {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--foot-h) + 14px);
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 18px 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 220, 170, 0.45);
+  background: rgba(29, 15, 36, 0.72);
+  color: #fff1d6;
+  font: 600 0.875rem/1 var(--font-hub), system-ui, sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+.ent .ent-tr-lever:hover {
+  border-color: rgba(255, 220, 170, 0.8);
+  background: rgba(29, 15, 36, 0.9);
+}
+.ent-tr-lever-arm {
+  transform-origin: 24px 26px;
+  transition: transform 380ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.ent-tr-lever[data-side="w"] .ent-tr-lever-arm {
+  transform: rotate(-32deg);
+}
+.ent-tr-lever[data-side="t"] .ent-tr-lever-arm {
+  transform: rotate(32deg);
+}
+
+/* Narrow landscape windows: the middle gets crowded, so the line copy goes. */
+@media (max-width: 1100px) and (min-width: 768px) {
+  .ent-tr-line {
+    display: none;
+  }
+}
+@media (max-height: 760px) and (min-width: 768px) {
+  .ent-tr-line {
+    display: none;
+  }
+}
+
+/* Phones and portrait: the two worlds side by side under the ground line, the lever below. */
+@media (max-width: 767px), (max-aspect-ratio: 19/20) {
+  .ent-tr-hint {
+    font-size: 0.875rem;
+  }
+  .ent-tr-block {
+    bottom: calc(var(--foot-h) + 84px);
+    width: calc(50% - var(--gutter) * 1.5);
+    gap: 6px;
+  }
+  .ent-tr-line {
+    display: none;
+  }
+  /* the world name stays in the button's accessible name, just not on screen */
+  .ent-tr-long {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .ent-tr-block--w .ent-tr-name {
+    font-size: clamp(1.7rem, 8vw, 2.6rem);
+  }
+  .ent-tr-block--t .ent-tr-name {
+    font-size: clamp(1.05rem, 4.6vw, 1.9rem);
+    font-stretch: 112%;
+  }
+  .ent-tr-promise {
+    font-size: 0.9375rem;
+  }
+  .ent .ent-tr-block .ent-enter {
+    min-height: 48px;
+    padding: 0 16px 0 18px;
+  }
+  .ent .ent-tr-lever {
+    bottom: calc(var(--foot-h) + 12px);
+    min-height: 48px;
+  }
+}
+@media (max-width: 767px) and (min-aspect-ratio: 1/1) {
+  .ent-tr-hint {
+    display: none;
+  }
+}
+
+/* Before hydration the openings stay hidden (see entrance.css); without JS they appear anyway. */
+@media (prefers-reduced-motion: no-preference) {
+  .ent-mq:not([data-ready]) .ent-mq-halves,
+  .ent-mq:not([data-ready]) .ent-mq-hint,
+  .ent-tr:not([data-ready]) .ent-tr-layout {
+    opacity: 0;
+    animation: ent-no-js 1ms 3s forwards;
+  }
+}

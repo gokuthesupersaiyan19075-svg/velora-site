@@ -1,0 +1,178 @@
+[
+  {
+    "name": "cinematic-bed",
+    "kind": "bed",
+    "file": "/media/audio/cinematic-bed.m4a",
+    "source": "https://pixabay.com/music/ambient-cinematic-ambient-274889/",
+    "creator": "Kulakovka",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  },
+  {
+    "name": "fair-evening",
+    "kind": "bed",
+    "file": "/media/audio/fair-evening.m4a",
+    "source": "https://pixabay.com/sound-effects/amusement-park-ambience-24787/",
+    "creator": "freesound_community",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  },
+  {
+    "name": "whoosh-wipe",
+    "kind": "sfx",
+    "file": "/media/audio/whoosh-wipe.m4a",
+    "source": "https://mixkit.co/free-sound-effects/whoosh/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "whoosh-deep",
+    "kind": "sfx",
+    "file": "/media/audio/whoosh-deep.m4a",
+    "source": "https://mixkit.co/free-sound-effects/whoosh/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "fireworks",
+    "kind": "sfx",
+    "file": "/media/audio/fireworks.m4a",
+    "source": "https://mixkit.co/free-sound-effects/fireworks/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "rush-bed",
+    "kind": "bed",
+    "file": "/media/audio/rush-bed.m4a",
+    "source": "https://pixabay.com/music/search/energetic%20trailer/ (id 613517)",
+    "creator": "AtlasAudio",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  },
+  {
+    "name": "chain-lift",
+    "kind": "sfx",
+    "file": "/media/audio/chain-lift.m4a",
+    "source": "https://pixabay.com/sound-effects/rollercoaster-ratchet-33962/",
+    "creator": "freesound_community",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  },
+  {
+    "name": "coaster-run",
+    "kind": "sfx",
+    "file": "/media/audio/coaster-run.m4a",
+    "source": "https://pixabay.com/sound-effects/g42-01-roller-coaster-run-25877/",
+    "creator": "freesound_community",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  },
+  {
+    "name": "ride-scream",
+    "kind": "sfx",
+    "file": "/media/audio/ride-scream.m4a",
+    "source": "https://pixabay.com/sound-effects/scream-ride-start-91271/",
+    "creator": "freesound_community",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  },
+  {
+    "name": "riser",
+    "kind": "sfx",
+    "file": "/media/audio/riser.m4a",
+    "source": "https://mixkit.co/free-sound-effects/cinematic/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "whoosh-fast",
+    "kind": "sfx",
+    "file": "/media/audio/whoosh-fast.m4a",
+    "source": "https://mixkit.co/free-sound-effects/whoosh/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "universe-bed",
+    "kind": "bed",
+    "file": "/media/audio/universe-bed.m4a",
+    "source": "https://pixabay.com/music/search/ethereal%20ambient/ (id 512265)",
+    "creator": "AtlasAudio",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  },
+  {
+    "name": "lagoon-water",
+    "kind": "bed",
+    "file": "/media/audio/lagoon-water.m4a",
+    "source": "https://mixkit.co/free-sound-effects/water/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "night-crickets",
+    "kind": "bed",
+    "file": "/media/audio/night-crickets.m4a",
+    "source": "https://mixkit.co/free-sound-effects/night/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "chime-crystal",
+    "kind": "sfx",
+    "file": "/media/audio/chime-crystal.m4a",
+    "source": "https://mixkit.co/free-sound-effects/chime/",
+    "creator": "Mixkit",
+    "license": {
+      "name": "Mixkit Sound Effects Free License",
+      "url": "https://mixkit.co/license/#sfxFree"
+    }
+  },
+  {
+    "name": "portal-carousel",
+    "kind": "bed",
+    "file": "/media/audio/portal-carousel.m4a",
+    "source": "https://pixabay.com/sound-effects/carousel-train-carriages-amusement-park-holiday-24376/",
+    "creator": "freesound_community",
+    "license": {
+      "name": "Pixabay Content License",
+      "url": "https://pixabay.com/service/license-summary/"
+    }
+  }
+]

@@ -1,0 +1,2126 @@
+{
+  "pexels-32072284": {
+    "stats": {
+      "yavg": 53.6,
+      "yhigh": 108.7,
+      "ylow": 21.3,
+      "sat": 17.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-38908305": {
+    "stats": {
+      "yavg": 67.5,
+      "yhigh": 101.7,
+      "ylow": 27.3,
+      "sat": 7.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-19026924": {
+    "stats": {
+      "yavg": 58.5,
+      "yhigh": 126,
+      "ylow": 19,
+      "sat": 17.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-13002893": {
+    "stats": {
+      "yavg": 63.3,
+      "yhigh": 108.7,
+      "ylow": 24,
+      "sat": 24.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-27349945": {
+    "stats": {
+      "yavg": 45.5,
+      "yhigh": 90.3,
+      "ylow": 17,
+      "sat": 11
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-28000865": {
+    "stats": {
+      "yavg": 109.4,
+      "yhigh": 166,
+      "ylow": 29,
+      "sat": 16.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-27993338": {
+    "stats": {
+      "yavg": 67.6,
+      "yhigh": 106.3,
+      "ylow": 31.3,
+      "sat": 12.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-33945522": {
+    "stats": {
+      "yavg": 104.1,
+      "yhigh": 145.3,
+      "ylow": 52.7,
+      "sat": 1
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-32963332": {
+    "stats": {
+      "yavg": 126.5,
+      "yhigh": 188,
+      "ylow": 77.3,
+      "sat": 10.7
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-30686885": {
+    "stats": {
+      "yavg": 116.6,
+      "yhigh": 163,
+      "ylow": 74.3,
+      "sat": 25.5
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-40268711": {
+    "stats": {
+      "yavg": 107.8,
+      "yhigh": 193.3,
+      "ylow": 35,
+      "sat": 16.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-40268519": {
+    "stats": {
+      "yavg": 111.3,
+      "yhigh": 186,
+      "ylow": 38,
+      "sat": 13.8
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-39670423": {
+    "stats": {
+      "yavg": 119,
+      "yhigh": 185,
+      "ylow": 54.3,
+      "sat": 20.1
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-32963341": {
+    "stats": {
+      "yavg": 110.3,
+      "yhigh": 167,
+      "ylow": 65.3,
+      "sat": 12.6
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-18925870": {
+    "stats": {
+      "yavg": 103.7,
+      "yhigh": 145.7,
+      "ylow": 52.7,
+      "sat": 25.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pixabay-126085": {
+    "stats": {
+      "yavg": 132.7,
+      "yhigh": 195,
+      "ylow": 55.7,
+      "sat": 7.9
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pixabay-20453": {
+    "stats": {
+      "yavg": 138.3,
+      "yhigh": 178.7,
+      "ylow": 86.3,
+      "sat": 19.1
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-9523083": {
+    "stats": {
+      "yavg": 106.4,
+      "yhigh": 180.3,
+      "ylow": 37.3,
+      "sat": 15.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-9629496": {
+    "stats": {
+      "yavg": 94,
+      "yhigh": 159.7,
+      "ylow": 35,
+      "sat": 21.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-31596978": {
+    "stats": {
+      "yavg": 185.5,
+      "yhigh": 209,
+      "ylow": 107.7,
+      "sat": 8.3
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-40075194": {
+    "stats": {
+      "yavg": 109.5,
+      "yhigh": 168.7,
+      "ylow": 54,
+      "sat": 9.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pixabay-5626": {
+    "stats": {
+      "yavg": 94.1,
+      "yhigh": 163,
+      "ylow": 52,
+      "sat": 10.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pixabay-168213": {
+    "stats": {
+      "yavg": 96.5,
+      "yhigh": 160.3,
+      "ylow": 34,
+      "sat": 15.1
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-35345803": {
+    "stats": {
+      "yavg": 123.1,
+      "yhigh": 172,
+      "ylow": 50.3,
+      "sat": 10.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-35876717": {
+    "stats": {
+      "yavg": 98.2,
+      "yhigh": 192.7,
+      "ylow": 36.7,
+      "sat": 22.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-15566658": {
+    "stats": {
+      "yavg": 40.9,
+      "yhigh": 67.7,
+      "ylow": 22,
+      "sat": 10.7
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-18686281": {
+    "stats": {
+      "yavg": 19,
+      "yhigh": 20,
+      "ylow": 15,
+      "sat": 0.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-34425749": {
+    "stats": {
+      "yavg": 33.1,
+      "yhigh": 44,
+      "ylow": 25.3,
+      "sat": 2
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-15231832": {
+    "stats": {
+      "yavg": 115.5,
+      "yhigh": 210.7,
+      "ylow": 46,
+      "sat": 9.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-36218475": {
+    "stats": {
+      "yavg": 136.2,
+      "yhigh": 219.3,
+      "ylow": 63.7,
+      "sat": 12.8
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-39762097": {
+    "stats": {
+      "yavg": 91.3,
+      "yhigh": 150.7,
+      "ylow": 45.3,
+      "sat": 23.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-33243268": {
+    "stats": {
+      "yavg": 140.6,
+      "yhigh": 186,
+      "ylow": 75.3,
+      "sat": 7.6
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-29905597": {
+    "stats": {
+      "yavg": 122.2,
+      "yhigh": 173.3,
+      "ylow": 69,
+      "sat": 22.5
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-32963347": {
+    "stats": {
+      "yavg": 110.7,
+      "yhigh": 173.7,
+      "ylow": 41,
+      "sat": 16.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-26575927": {
+    "stats": {
+      "yavg": 39.2,
+      "yhigh": 74.3,
+      "ylow": 18,
+      "sat": 10.2
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-35364474": {
+    "stats": {
+      "yavg": 50.7,
+      "yhigh": 99.3,
+      "ylow": 20,
+      "sat": 3.6
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-35876722": {
+    "stats": {
+      "yavg": 38.6,
+      "yhigh": 65.3,
+      "ylow": 20.7,
+      "sat": 5.4
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-34995307": {
+    "stats": {
+      "yavg": 84.1,
+      "yhigh": 147,
+      "ylow": 24,
+      "sat": 22.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pixabay-27057": {
+    "stats": {
+      "yavg": 37.1,
+      "yhigh": 78.3,
+      "ylow": 18.7,
+      "sat": 6.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pixabay-122422": {
+    "stats": {
+      "yavg": 93,
+      "yhigh": 184.3,
+      "ylow": 32,
+      "sat": 9.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pixabay-77563": {
+    "stats": {
+      "yavg": 111.5,
+      "yhigh": 203,
+      "ylow": 43.7,
+      "sat": 8
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-12794397": {
+    "stats": {
+      "yavg": 132.1,
+      "yhigh": 188,
+      "ylow": 66,
+      "sat": 32.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-2799169": {
+    "stats": {
+      "yavg": 95.8,
+      "yhigh": 204,
+      "ylow": 32,
+      "sat": 17.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-31466062": {
+    "stats": {
+      "yavg": 114.8,
+      "yhigh": 190,
+      "ylow": 17,
+      "sat": 10.9
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-749061": {
+    "stats": {
+      "yavg": 122.3,
+      "yhigh": 162,
+      "ylow": 50,
+      "sat": 52.9
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.10"
+  },
+  "pexels-15149734": {
+    "stats": {
+      "yavg": 114.5,
+      "yhigh": 173,
+      "ylow": 8,
+      "sat": 23.2
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-18242981": {
+    "stats": {
+      "yavg": 118.3,
+      "yhigh": 191,
+      "ylow": 28,
+      "sat": 22.6
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-35134246": {
+    "stats": {
+      "yavg": 96.1,
+      "yhigh": 193,
+      "ylow": 15,
+      "sat": 27.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-5486824": {
+    "stats": {
+      "yavg": 117,
+      "yhigh": 201,
+      "ylow": 43,
+      "sat": 16.8
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-12226882": {
+    "stats": {
+      "yavg": 74.6,
+      "yhigh": 180,
+      "ylow": 5,
+      "sat": 19.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-29736780": {
+    "stats": {
+      "yavg": 42.9,
+      "yhigh": 104,
+      "ylow": 12,
+      "sat": 7.7
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-30883971": {
+    "stats": {
+      "yavg": 123.6,
+      "yhigh": 218,
+      "ylow": 26,
+      "sat": 25.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-32223212": {
+    "stats": {
+      "yavg": 39.4,
+      "yhigh": 142,
+      "ylow": 6,
+      "sat": 11.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-31166929": {
+    "stats": {
+      "yavg": 103.7,
+      "yhigh": 181,
+      "ylow": 32,
+      "sat": 37.2
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-2605030": {
+    "stats": {
+      "yavg": 121.6,
+      "yhigh": 201,
+      "ylow": 24,
+      "sat": 31.9
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-11657969": {
+    "stats": {
+      "yavg": 38.6,
+      "yhigh": 75,
+      "ylow": 15,
+      "sat": 6.1
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-13174519": {
+    "stats": {
+      "yavg": 20.2,
+      "yhigh": 44,
+      "ylow": 9,
+      "sat": 5.3
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-10149156": {
+    "stats": {
+      "yavg": 27,
+      "yhigh": 65,
+      "ylow": 4,
+      "sat": 5.7
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-1503520": {
+    "stats": {
+      "yavg": 25.8,
+      "yhigh": 59,
+      "ylow": 14,
+      "sat": 6.7
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-3006889": {
+    "stats": {
+      "yavg": 114,
+      "yhigh": 196.7,
+      "ylow": 40,
+      "sat": 28.2
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-9445929": {
+    "stats": {
+      "yavg": 143.2,
+      "yhigh": 216.3,
+      "ylow": 70.3,
+      "sat": 10.3
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-13279753": {
+    "stats": {
+      "yavg": 126.8,
+      "yhigh": 188,
+      "ylow": 57.3,
+      "sat": 18.6
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-14367734": {
+    "stats": {
+      "yavg": 108.2,
+      "yhigh": 153,
+      "ylow": 45,
+      "sat": 18
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-34430969": {
+    "stats": {
+      "yavg": 139,
+      "yhigh": 235,
+      "ylow": 60,
+      "sat": 10.4
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-37482601": {
+    "stats": {
+      "yavg": 125.3,
+      "yhigh": 158.7,
+      "ylow": 76.7,
+      "sat": 36.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-40268459": {
+    "stats": {
+      "yavg": 114.2,
+      "yhigh": 189.7,
+      "ylow": 38,
+      "sat": 14
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-34720022": {
+    "stats": {
+      "yavg": 122,
+      "yhigh": 189,
+      "ylow": 34.3,
+      "sat": 29.6
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-19759460": {
+    "stats": {
+      "yavg": 95,
+      "yhigh": 147,
+      "ylow": 59.3,
+      "sat": 18.2
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-1810155": {
+    "stats": {
+      "yavg": 78.8,
+      "yhigh": 175.7,
+      "ylow": 23.7,
+      "sat": 20.1
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-11492996": {
+    "stats": {
+      "yavg": 107.2,
+      "yhigh": 194.7,
+      "ylow": 29.3,
+      "sat": 11.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-4476065": {
+    "stats": {
+      "yavg": 134.5,
+      "yhigh": 187,
+      "ylow": 76.7,
+      "sat": 16.7
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-856125": {
+    "stats": {
+      "yavg": 40.1,
+      "yhigh": 75,
+      "ylow": 20,
+      "sat": 4.3
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-1748439": {
+    "stats": {
+      "yavg": 128.1,
+      "yhigh": 175,
+      "ylow": 72.3,
+      "sat": 49
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.10"
+  },
+  "pexels-3922607": {
+    "stats": {
+      "yavg": 183,
+      "yhigh": 216.3,
+      "ylow": 119,
+      "sat": 15
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-4673279": {
+    "stats": {
+      "yavg": 96.1,
+      "yhigh": 178.3,
+      "ylow": 38.3,
+      "sat": 12.5
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-12614842": {
+    "stats": {
+      "yavg": 144.2,
+      "yhigh": 218,
+      "ylow": 57.3,
+      "sat": 13.9
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-28000859": {
+    "stats": {
+      "yavg": 142.3,
+      "yhigh": 201.7,
+      "ylow": 45,
+      "sat": 13.9
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-28000863": {
+    "stats": {
+      "yavg": 126.7,
+      "yhigh": 184.7,
+      "ylow": 52.3,
+      "sat": 20.8
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-39345914": {
+    "stats": {
+      "yavg": 137.7,
+      "yhigh": 148.7,
+      "ylow": 131,
+      "sat": 35.8
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.26"
+  },
+  "pexels-27444492": {
+    "stats": {
+      "yavg": 143.1,
+      "yhigh": 184,
+      "ylow": 127.7,
+      "sat": 45.6
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.18"
+  },
+  "pexels-36388260": {
+    "stats": {
+      "yavg": 130.6,
+      "yhigh": 155,
+      "ylow": 103.7,
+      "sat": 42.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.10"
+  },
+  "pexels-29959500": {
+    "stats": {
+      "yavg": 60.6,
+      "yhigh": 110.3,
+      "ylow": 25,
+      "sat": 17.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-35876721": {
+    "stats": {
+      "yavg": 77.7,
+      "yhigh": 184,
+      "ylow": 21,
+      "sat": 17.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-35876724": {
+    "stats": {
+      "yavg": 82.9,
+      "yhigh": 159.3,
+      "ylow": 23,
+      "sat": 12.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-35876719": {
+    "stats": {
+      "yavg": 75.5,
+      "yhigh": 167,
+      "ylow": 20.7,
+      "sat": 20.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-27349952": {
+    "stats": {
+      "yavg": 38.6,
+      "yhigh": 77.3,
+      "ylow": 8.3,
+      "sat": 9.6
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-29831554": {
+    "stats": {
+      "yavg": 73.9,
+      "yhigh": 116.3,
+      "ylow": 31.7,
+      "sat": 23.2
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-39257413": {
+    "stats": {
+      "yavg": 97.2,
+      "yhigh": 103,
+      "ylow": 90.7,
+      "sat": 25
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-13690884": {
+    "stats": {
+      "yavg": 45.1,
+      "yhigh": 74.7,
+      "ylow": 27,
+      "sat": 10.1
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-20621392": {
+    "stats": {
+      "yavg": 58.7,
+      "yhigh": 119,
+      "ylow": 21.7,
+      "sat": 15.1
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-1601345": {
+    "stats": {
+      "yavg": 30.4,
+      "yhigh": 33.3,
+      "ylow": 22,
+      "sat": 3.1
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-2963867": {
+    "stats": {
+      "yavg": 37.1,
+      "yhigh": 78.3,
+      "ylow": 18.7,
+      "sat": 6.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-3116906": {
+    "stats": {
+      "yavg": 43.5,
+      "yhigh": 85,
+      "ylow": 18.7,
+      "sat": 7.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-3509314": {
+    "stats": {
+      "yavg": 61.7,
+      "yhigh": 131.3,
+      "ylow": 19.3,
+      "sat": 12.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-3614804": {
+    "stats": {
+      "yavg": 74.8,
+      "yhigh": 144.7,
+      "ylow": 31.7,
+      "sat": 15.2
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-4053776": {
+    "stats": {
+      "yavg": 45.6,
+      "yhigh": 121.3,
+      "ylow": 5.7,
+      "sat": 12.6
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-5525939": {
+    "stats": {
+      "yavg": 53.6,
+      "yhigh": 86,
+      "ylow": 14.7,
+      "sat": 9.1
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-6890334": {
+    "stats": {
+      "yavg": 53,
+      "yhigh": 108.7,
+      "ylow": 24,
+      "sat": 11
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-10767636": {
+    "stats": {
+      "yavg": 109.3,
+      "yhigh": 147.3,
+      "ylow": 58.3,
+      "sat": 36.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-10895838": {
+    "stats": {
+      "yavg": 74.1,
+      "yhigh": 128.7,
+      "ylow": 31.3,
+      "sat": 10
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-11726139": {
+    "stats": {
+      "yavg": 54.2,
+      "yhigh": 117.7,
+      "ylow": 24.7,
+      "sat": 10.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-13002908": {
+    "stats": {
+      "yavg": 69.9,
+      "yhigh": 124,
+      "ylow": 29,
+      "sat": 24.5
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-14516592": {
+    "stats": {
+      "yavg": 80.9,
+      "yhigh": 130.7,
+      "ylow": 47,
+      "sat": 5.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-17134485": {
+    "stats": {
+      "yavg": 49.6,
+      "yhigh": 128.3,
+      "ylow": 16.7,
+      "sat": 14.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-19240149": {
+    "stats": {
+      "yavg": 117,
+      "yhigh": 201.7,
+      "ylow": 46.3,
+      "sat": 16.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-19894295": {
+    "stats": {
+      "yavg": 70.7,
+      "yhigh": 130.3,
+      "ylow": 32,
+      "sat": 24.2
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-26575925": {
+    "stats": {
+      "yavg": 38.4,
+      "yhigh": 68.7,
+      "ylow": 21,
+      "sat": 6.3
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-27350096": {
+    "stats": {
+      "yavg": 49.1,
+      "yhigh": 82.3,
+      "ylow": 28,
+      "sat": 15.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-28858945": {
+    "stats": {
+      "yavg": 88.1,
+      "yhigh": 157.7,
+      "ylow": 42,
+      "sat": 31.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-28886175": {
+    "stats": {
+      "yavg": 55.5,
+      "yhigh": 127.3,
+      "ylow": 21,
+      "sat": 24.2
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-29181823": {
+    "stats": {
+      "yavg": 69.1,
+      "yhigh": 94,
+      "ylow": 46.7,
+      "sat": 46.1
+    },
+    "filter": "eq=contrast=1.04:saturation=1.10"
+  },
+  "pexels-29353630": {
+    "stats": {
+      "yavg": 132.9,
+      "yhigh": 211,
+      "ylow": 71.7,
+      "sat": 34
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-29733061": {
+    "stats": {
+      "yavg": 60.5,
+      "yhigh": 156,
+      "ylow": 18,
+      "sat": 9.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-29831448": {
+    "stats": {
+      "yavg": 64.2,
+      "yhigh": 122.7,
+      "ylow": 23,
+      "sat": 18.5
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-30021380": {
+    "stats": {
+      "yavg": 83.8,
+      "yhigh": 161.3,
+      "ylow": 30,
+      "sat": 19.2
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-31210326": {
+    "stats": {
+      "yavg": 23.2,
+      "yhigh": 33.7,
+      "ylow": 17,
+      "sat": 3.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-32072016": {
+    "stats": {
+      "yavg": 56.1,
+      "yhigh": 133.7,
+      "ylow": 23,
+      "sat": 17.2
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-32072285": {
+    "stats": {
+      "yavg": 53.4,
+      "yhigh": 110.7,
+      "ylow": 21.7,
+      "sat": 18.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-32668864": {
+    "stats": {
+      "yavg": 61.5,
+      "yhigh": 92.7,
+      "ylow": 35,
+      "sat": 43.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.10"
+  },
+  "pexels-13582509": {
+    "stats": {
+      "yavg": 102.6,
+      "yhigh": 214,
+      "ylow": 38.7,
+      "sat": 5.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-20453549": {
+    "stats": {
+      "yavg": 115.2,
+      "yhigh": 179.3,
+      "ylow": 60.3,
+      "sat": 10.2
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-32409527": {
+    "stats": {
+      "yavg": 45.7,
+      "yhigh": 84.3,
+      "ylow": 24.3,
+      "sat": 2.7
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-32963336": {
+    "stats": {
+      "yavg": 109.5,
+      "yhigh": 189.3,
+      "ylow": 52.7,
+      "sat": 12.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-38618465": {
+    "stats": {
+      "yavg": 117.7,
+      "yhigh": 178.7,
+      "ylow": 61.7,
+      "sat": 13
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-38618468": {
+    "stats": {
+      "yavg": 116.6,
+      "yhigh": 180,
+      "ylow": 59.7,
+      "sat": 11.8
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-35364472": {
+    "stats": {
+      "yavg": 48.4,
+      "yhigh": 100.3,
+      "ylow": 18.3,
+      "sat": 3.4
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-6115291": {
+    "stats": {
+      "yavg": 63,
+      "yhigh": 145.7,
+      "ylow": 16,
+      "sat": 13.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-7670915": {
+    "stats": {
+      "yavg": 63.1,
+      "yhigh": 120,
+      "ylow": 23.7,
+      "sat": 10.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-9445930": {
+    "stats": {
+      "yavg": 134.3,
+      "yhigh": 187.3,
+      "ylow": 74,
+      "sat": 10.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-9445934": {
+    "stats": {
+      "yavg": 130.2,
+      "yhigh": 190,
+      "ylow": 67.3,
+      "sat": 13.2
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-11553328": {
+    "stats": {
+      "yavg": 92.6,
+      "yhigh": 159.3,
+      "ylow": 43.3,
+      "sat": 8.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-30287199": {
+    "stats": {
+      "yavg": 114.9,
+      "yhigh": 184.7,
+      "ylow": 59,
+      "sat": 13.7
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-18173496": {
+    "stats": {
+      "yavg": 59.9,
+      "yhigh": 85.3,
+      "ylow": 35.3,
+      "sat": 7.9
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-18175099": {
+    "stats": {
+      "yavg": 63.7,
+      "yhigh": 139.3,
+      "ylow": 26.3,
+      "sat": 7.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-18175103": {
+    "stats": {
+      "yavg": 50.7,
+      "yhigh": 104.7,
+      "ylow": 25,
+      "sat": 6.4
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-19130222": {
+    "stats": {
+      "yavg": 69.3,
+      "yhigh": 183.3,
+      "ylow": 18.3,
+      "sat": 10
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-20230796": {
+    "stats": {
+      "yavg": 37.2,
+      "yhigh": 65,
+      "ylow": 21,
+      "sat": 5.7
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-20629761": {
+    "stats": {
+      "yavg": 38.7,
+      "yhigh": 71.3,
+      "ylow": 18.3,
+      "sat": 4.9
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-31297186": {
+    "stats": {
+      "yavg": 111.6,
+      "yhigh": 176,
+      "ylow": 60.3,
+      "sat": 5.9
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-32079020": {
+    "stats": {
+      "yavg": 47.4,
+      "yhigh": 108,
+      "ylow": 21,
+      "sat": 14.9
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-32409526": {
+    "stats": {
+      "yavg": 48.9,
+      "yhigh": 86.3,
+      "ylow": 26,
+      "sat": 3.4
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-34430978": {
+    "stats": {
+      "yavg": 128.8,
+      "yhigh": 235.7,
+      "ylow": 57.7,
+      "sat": 10.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-35364473": {
+    "stats": {
+      "yavg": 47.4,
+      "yhigh": 98.7,
+      "ylow": 19,
+      "sat": 2.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-35364477": {
+    "stats": {
+      "yavg": 41.3,
+      "yhigh": 91.7,
+      "ylow": 18.7,
+      "sat": 2.6
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-37304489": {
+    "stats": {
+      "yavg": 102.6,
+      "yhigh": 204.3,
+      "ylow": 31.3,
+      "sat": 6.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-1763023": {
+    "stats": {
+      "yavg": 89.2,
+      "yhigh": 170.7,
+      "ylow": 35.3,
+      "sat": 19.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-8522321": {
+    "stats": {
+      "yavg": 110.4,
+      "yhigh": 167,
+      "ylow": 65.7,
+      "sat": 13.8
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-10767634": {
+    "stats": {
+      "yavg": 111.3,
+      "yhigh": 154.3,
+      "ylow": 53.7,
+      "sat": 25.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-19574995": {
+    "stats": {
+      "yavg": 85.6,
+      "yhigh": 137.7,
+      "ylow": 47.7,
+      "sat": 15.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-27223774": {
+    "stats": {
+      "yavg": 104.3,
+      "yhigh": 197,
+      "ylow": 46,
+      "sat": 9.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-32037153": {
+    "stats": {
+      "yavg": 117.2,
+      "yhigh": 200,
+      "ylow": 53,
+      "sat": 23.2
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-32820838": {
+    "stats": {
+      "yavg": 83.6,
+      "yhigh": 176.7,
+      "ylow": 33.7,
+      "sat": 27.5
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-34400461": {
+    "stats": {
+      "yavg": 81.8,
+      "yhigh": 138,
+      "ylow": 28,
+      "sat": 17.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-34995309": {
+    "stats": {
+      "yavg": 73.5,
+      "yhigh": 150,
+      "ylow": 22,
+      "sat": 15.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-35098737": {
+    "stats": {
+      "yavg": 96,
+      "yhigh": 144.3,
+      "ylow": 52,
+      "sat": 26
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-35639525": {
+    "stats": {
+      "yavg": 49.3,
+      "yhigh": 110.3,
+      "ylow": 19.3,
+      "sat": 11.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-35812347": {
+    "stats": {
+      "yavg": 98.9,
+      "yhigh": 135.3,
+      "ylow": 48,
+      "sat": 13.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-35844445": {
+    "stats": {
+      "yavg": 111.2,
+      "yhigh": 189.7,
+      "ylow": 52.7,
+      "sat": 13.8
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-38626793": {
+    "stats": {
+      "yavg": 132.2,
+      "yhigh": 205,
+      "ylow": 60.7,
+      "sat": 12.2
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-10366306": {
+    "stats": {
+      "yavg": 144.6,
+      "yhigh": 200,
+      "ylow": 75,
+      "sat": 9.3
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-4512876": {
+    "stats": {
+      "yavg": 100.9,
+      "yhigh": 182.7,
+      "ylow": 35,
+      "sat": 11.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-6184158": {
+    "stats": {
+      "yavg": 79.1,
+      "yhigh": 198,
+      "ylow": 27,
+      "sat": 10.5
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-7033771": {
+    "stats": {
+      "yavg": 129.3,
+      "yhigh": 163.3,
+      "ylow": 79.7,
+      "sat": 16.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-7033787": {
+    "stats": {
+      "yavg": 125,
+      "yhigh": 161,
+      "ylow": 70,
+      "sat": 23.1
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-7677398": {
+    "stats": {
+      "yavg": 139.3,
+      "yhigh": 186.7,
+      "ylow": 75,
+      "sat": 23
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-8384696": {
+    "stats": {
+      "yavg": 117.3,
+      "yhigh": 174.3,
+      "ylow": 63,
+      "sat": 13
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-8385521": {
+    "stats": {
+      "yavg": 113.8,
+      "yhigh": 164.3,
+      "ylow": 70.7,
+      "sat": 15.1
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-15014059": {
+    "stats": {
+      "yavg": 79.8,
+      "yhigh": 170.7,
+      "ylow": 16,
+      "sat": 15.2
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-15721552": {
+    "stats": {
+      "yavg": 87.1,
+      "yhigh": 166.3,
+      "ylow": 33.3,
+      "sat": 23.1
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-27810299": {
+    "stats": {
+      "yavg": 57.8,
+      "yhigh": 142.3,
+      "ylow": 21,
+      "sat": 6.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-3912831": {
+    "stats": {
+      "yavg": 26.7,
+      "yhigh": 48.3,
+      "ylow": 16.7,
+      "sat": 7.9
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-4017465": {
+    "stats": {
+      "yavg": 80.4,
+      "yhigh": 156,
+      "ylow": 31,
+      "sat": 10.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-4205707": {
+    "stats": {
+      "yavg": 57.2,
+      "yhigh": 102.7,
+      "ylow": 31.7,
+      "sat": 5.4
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-7857635": {
+    "stats": {
+      "yavg": 37.2,
+      "yhigh": 63,
+      "ylow": 17.3,
+      "sat": 21.1
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-8396596": {
+    "stats": {
+      "yavg": 61.8,
+      "yhigh": 154.7,
+      "ylow": 20,
+      "sat": 19.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-8515272": {
+    "stats": {
+      "yavg": 54,
+      "yhigh": 102.7,
+      "ylow": 27.3,
+      "sat": 13.6
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-8627312": {
+    "stats": {
+      "yavg": 26.6,
+      "yhigh": 28.7,
+      "ylow": 20.3,
+      "sat": 2.9
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-10003356": {
+    "stats": {
+      "yavg": 75.4,
+      "yhigh": 102,
+      "ylow": 50.3,
+      "sat": 45.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.10"
+  },
+  "pexels-11336421": {
+    "stats": {
+      "yavg": 124.4,
+      "yhigh": 179.7,
+      "ylow": 70.7,
+      "sat": 11.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-12684084": {
+    "stats": {
+      "yavg": 33.8,
+      "yhigh": 55.7,
+      "ylow": 21,
+      "sat": 2.7
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-12714597": {
+    "stats": {
+      "yavg": 43.4,
+      "yhigh": 97.3,
+      "ylow": 16,
+      "sat": 8.2
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-12781233": {
+    "stats": {
+      "yavg": 43,
+      "yhigh": 127,
+      "ylow": 15.7,
+      "sat": 12
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-3724012": {
+    "stats": {
+      "yavg": 118,
+      "yhigh": 197.3,
+      "ylow": 59,
+      "sat": 33.3
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.18"
+  },
+  "pexels-4223279": {
+    "stats": {
+      "yavg": 116.6,
+      "yhigh": 172.7,
+      "ylow": 62.7,
+      "sat": 15.9
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-4929171": {
+    "stats": {
+      "yavg": 110,
+      "yhigh": 162.3,
+      "ylow": 49.3,
+      "sat": 23.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-4929175": {
+    "stats": {
+      "yavg": 114.9,
+      "yhigh": 168,
+      "ylow": 52.7,
+      "sat": 23.6
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-7691635": {
+    "stats": {
+      "yavg": 101.3,
+      "yhigh": 197,
+      "ylow": 37.7,
+      "sat": 17.7
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-7775191": {
+    "stats": {
+      "yavg": 122.5,
+      "yhigh": 177.3,
+      "ylow": 81.7,
+      "sat": 8.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-13177212": {
+    "stats": {
+      "yavg": 92.5,
+      "yhigh": 158.7,
+      "ylow": 32,
+      "sat": 27.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-13177226": {
+    "stats": {
+      "yavg": 107,
+      "yhigh": 168.3,
+      "ylow": 41,
+      "sat": 18.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-13666398": {
+    "stats": {
+      "yavg": 133.5,
+      "yhigh": 208,
+      "ylow": 53,
+      "sat": 14.9
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-29892356": {
+    "stats": {
+      "yavg": 127,
+      "yhigh": 173,
+      "ylow": 67.3,
+      "sat": 21.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.28"
+  },
+  "pexels-32934736": {
+    "stats": {
+      "yavg": 96.2,
+      "yhigh": 183.7,
+      "ylow": 38.7,
+      "sat": 11.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "coverr-1234": {
+    "stats": {
+      "yavg": 97.2,
+      "yhigh": 167.3,
+      "ylow": 42,
+      "sat": 24.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "coverr-2628": {
+    "stats": {
+      "yavg": 68.1,
+      "yhigh": 126.3,
+      "ylow": 21.3,
+      "sat": 8.5
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "coverr-244": {
+    "stats": {
+      "yavg": 91.1,
+      "yhigh": 147.7,
+      "ylow": 41.7,
+      "sat": 25.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-18242958": {
+    "stats": {
+      "yavg": 147.2,
+      "yhigh": 161,
+      "ylow": 127,
+      "sat": 29.3
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.26"
+  },
+  "pexels-749064": {
+    "stats": {
+      "yavg": 96.1,
+      "yhigh": 112,
+      "ylow": 30,
+      "sat": 32
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-13406162": {
+    "stats": {
+      "yavg": 22.6,
+      "yhigh": 40,
+      "ylow": 0,
+      "sat": 14.3
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-4161880": {
+    "stats": {
+      "yavg": 56.1,
+      "yhigh": 103,
+      "ylow": 31,
+      "sat": 14.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-12571649": {
+    "stats": {
+      "yavg": 13.2,
+      "yhigh": 21,
+      "ylow": 5,
+      "sat": 6.6
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-19346727": {
+    "stats": {
+      "yavg": 13.3,
+      "yhigh": 35,
+      "ylow": 0,
+      "sat": 4.6
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-1336429": {
+    "stats": {
+      "yavg": 57.8,
+      "yhigh": 87,
+      "ylow": 46,
+      "sat": 15.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-682347": {
+    "stats": {
+      "yavg": 59.5,
+      "yhigh": 140,
+      "ylow": 30,
+      "sat": 11.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-35024347": {
+    "stats": {
+      "yavg": 37.2,
+      "yhigh": 125,
+      "ylow": 1,
+      "sat": 10.9
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-25820351": {
+    "stats": {
+      "yavg": 18,
+      "yhigh": 40,
+      "ylow": 6,
+      "sat": 9.2
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-12483042": {
+    "stats": {
+      "yavg": 46.8,
+      "yhigh": 84,
+      "ylow": 2,
+      "sat": 31.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.22"
+  },
+  "pexels-277256": {
+    "stats": {
+      "yavg": 99.9,
+      "yhigh": 219,
+      "ylow": 3,
+      "sat": 30.6
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-33273893": {
+    "stats": {
+      "yavg": 88.5,
+      "yhigh": 160,
+      "ylow": 44,
+      "sat": 17.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-30870516": {
+    "stats": {
+      "yavg": 100.7,
+      "yhigh": 178,
+      "ylow": 35,
+      "sat": 22.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-38831752": {
+    "stats": {
+      "yavg": 42.2,
+      "yhigh": 107,
+      "ylow": 8,
+      "sat": 12.3
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-14869717": {
+    "stats": {
+      "yavg": 149.1,
+      "yhigh": 214,
+      "ylow": 64,
+      "sat": 11.1
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-19256504": {
+    "stats": {
+      "yavg": 89.3,
+      "yhigh": 195,
+      "ylow": 16,
+      "sat": 12.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-14715813": {
+    "stats": {
+      "yavg": 78.2,
+      "yhigh": 162,
+      "ylow": 22,
+      "sat": 23.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-15121572": {
+    "stats": {
+      "yavg": 42.9,
+      "yhigh": 121,
+      "ylow": 0,
+      "sat": 22.2
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-33634575": {
+    "stats": {
+      "yavg": 119.7,
+      "yhigh": 205,
+      "ylow": 24,
+      "sat": 58.2
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.10"
+  },
+  "pexels-36522291": {
+    "stats": {
+      "yavg": 59.5,
+      "yhigh": 180,
+      "ylow": 5,
+      "sat": 29.5
+    },
+    "filter": "eq=contrast=1.06:saturation=1.22"
+  },
+  "pexels-1403653": {
+    "stats": {
+      "yavg": 63.3,
+      "yhigh": 137,
+      "ylow": 31,
+      "sat": 11.1
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-10807092": {
+    "stats": {
+      "yavg": 114.6,
+      "yhigh": 159,
+      "ylow": 85,
+      "sat": 66.4
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.10"
+  },
+  "pexels-18242966": {
+    "stats": {
+      "yavg": 136,
+      "yhigh": 204,
+      "ylow": 48,
+      "sat": 32.1
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.26"
+  },
+  "pexels-15895632": {
+    "stats": {
+      "yavg": 63.2,
+      "yhigh": 155,
+      "ylow": 3,
+      "sat": 18.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-13760398": {
+    "stats": {
+      "yavg": 139.9,
+      "yhigh": 231,
+      "ylow": 68,
+      "sat": 31
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.26"
+  },
+  "pexels-10067450": {
+    "stats": {
+      "yavg": 102.3,
+      "yhigh": 183,
+      "ylow": 36,
+      "sat": 21.9
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-31166924": {
+    "stats": {
+      "yavg": 121.6,
+      "yhigh": 203,
+      "ylow": 26,
+      "sat": 55.5
+    },
+    "filter": "curves=all='0/0 0.5/0.47 0.9/0.84 1/0.95',eq=contrast=1.05:saturation=1.10"
+  },
+  "pexels-13472355": {
+    "stats": {
+      "yavg": 92.7,
+      "yhigh": 175,
+      "ylow": 19,
+      "sat": 20.4
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-8530945": {
+    "stats": {
+      "yavg": 94.9,
+      "yhigh": 196,
+      "ylow": 24,
+      "sat": 29.3
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-8530911": {
+    "stats": {
+      "yavg": 88.9,
+      "yhigh": 155,
+      "ylow": 39,
+      "sat": 37
+    },
+    "filter": "eq=contrast=1.04:saturation=1.18"
+  },
+  "pexels-8385004": {
+    "stats": {
+      "yavg": 147.8,
+      "yhigh": 209,
+      "ylow": 76,
+      "sat": 23.6
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-10477112": {
+    "stats": {
+      "yavg": 143.2,
+      "yhigh": 222,
+      "ylow": 66,
+      "sat": 38
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.26"
+  },
+  "pexels-27051702": {
+    "stats": {
+      "yavg": 37,
+      "yhigh": 93,
+      "ylow": 11,
+      "sat": 17.4
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-266497": {
+    "stats": {
+      "yavg": 25.5,
+      "yhigh": 104,
+      "ylow": 0,
+      "sat": 6.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-949592": {
+    "stats": {
+      "yavg": 51.7,
+      "yhigh": 163,
+      "ylow": 6,
+      "sat": 16.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-36715186": {
+    "stats": {
+      "yavg": 25.1,
+      "yhigh": 87,
+      "ylow": 2,
+      "sat": 7.8
+    },
+    "filter": "eq=contrast=1.06:saturation=1.30"
+  },
+  "pexels-29410928": {
+    "stats": {
+      "yavg": 80.9,
+      "yhigh": 177,
+      "ylow": 28,
+      "sat": 19.5
+    },
+    "filter": "eq=contrast=1.04:saturation=1.28"
+  },
+  "pexels-11071451": {
+    "stats": {
+      "yavg": 162.1,
+      "yhigh": 212,
+      "ylow": 75,
+      "sat": 24.8
+    },
+    "filter": "curves=all='0/0 0.5/0.44 0.85/0.74 1/0.9',eq=contrast=1.08:saturation=1.36"
+  },
+  "pexels-15255680": {
+    "stats": {
+      "yavg": 106.6,
+      "yhigh": 163,
+      "ylow": 46,
+      "sat": 47.8
+    },
+    "filter": "eq=contrast=1.04:saturation=1.10"
+  }
+}

@@ -1,0 +1,15 @@
+// Cloudflare (Pages, now on Workers static assets; free plan). Publishes the static export in ../out.
+// Deploy: node scripts/export.mjs && npx wrangler deploy -c deploy/wrangler.jsonc
+{
+  "name": "velora-park",
+  "compatibility_date": "2026-11-13",
+  "assets": {
+    "directory": "../out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  // Primary domain. Cloudflare creates the DNS record and HTTPS certificate when the zone velorapark.dev is on
+  // this Cloudflare account (see README, "Custom domain"). The existing workers.dev address stays live.
+  "routes": [{ "pattern": "velorapark.dev", "custom_domain": true }],
+  "workers_dev": true
+}

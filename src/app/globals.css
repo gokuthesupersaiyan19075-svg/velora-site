@@ -1,0 +1,47 @@
+@import "tailwindcss" source("../"); /* scan src/ only, never the media folders */
+
+/* Each concept owns its theme file (tokens namespaced a-*, b-*, c-*) and its scoped styles.
+   Editing one concept's theme never touches another's. */
+@import "../app-hub/hub.css";
+@import "../app-hub/entrance/entrance.css";
+@import "../app-hub/entrance/entrance-more.css";
+@import "../concepts/a/theme.css";
+@import "../concepts/b/theme.css";
+@import "../shared/shared.css";
+
+@custom-variant motion-ok (&:where([data-motion="full"] *, [data-motion="full"]));
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:where(a, button, [role="button"], input, select, textarea, summary):focus-visible {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
+
+.sr-only-focusable:not(:focus):not(:focus-within) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

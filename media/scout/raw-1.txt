@@ -1,0 +1,46 @@
+#hero,dusk
+18175083;fair-at-night-by-the-ocean;3840x2160;23;29.97;Scott Unfried;;amusement-carnival-dusk-fair-18175083.jpeg;18175083-uhd_3840_2160_30fps.mp4;18175083-hd_1920_1080_30fps.mp4;18175083-hd_1280_720_30fps.mp4
+18173495;seaside-fair-at-night;3840x2160;55;29.97;Scott Unfried;;carnival-dusk-fair-18173495.jpeg;18173495-uhd_3840_2160_30fps.mp4;18173495-hd_1920_1080_30fps.mp4;18173495-hd_1280_720_30fps.mp4
+10959792;film-of-theme-park;1920x1080;8;29.97;Ekaterina Martynova;SamuraisCompass;background-videos-night-lights-park-background-10959792.jpeg;;10959792-hd_1920_1080_30fps.mp4;10959792-hd_1280_720_30fps.mp4
+18175099;county-fair-at-dusk-by-the-ocean;3840x2160;37;29.97;Scott Unfried;;carnival-dusk-fair-fun-18175099.jpeg;18175099-uhd_3840_2160_30fps.mp4;18175099-hd_1920_1080_30fps.mp4;18175099-hd_1280_720_30fps.mp4
+38421124;aerial-sunset-view-of-amusement-park-ferris-wheel;3840x2160;33;30;Xiaoxiao Bing;;pexels-photo-38421124.jpeg;16316053_3840_2160_30fps.mp4;16316051_1920_1080_30fps.mp4;16316050_1280_720_30fps.mp4
+10959795;ferris-wheel-in-disney-world-at-sunset;1920x1080;13;29.97;Ekaterina Martynova;SamuraisCompass;cartoon-background-disney-world-night-lights-10959795.jpeg;;10959795-hd_1920_1080_30fps.mp4;10959795-hd_1280_720_30fps.mp4
+13582509;amusement-park-in-city;3840x2160;39;29.97;Sebastien Devaux;;la-ronde-mini2-montreal-13582509.jpeg;13582509-uhd_3840_2160_30fps.mp4;13582509-hd_1920_1080_30fps.mp4;13582509-hd_1280_720_30fps.mp4
+40305020;sunset-silhouette-of-a-ferris-wheel;1920x1080;22;59.94;Nothing Ahead;ian-panelo;pexels-photo-40305020.jpeg;;17217558_1920_1080_60fps.mp4;17217553_1280_720_60fps.mp4
+40305017;giant-ferris-wheel-against-a-twilight-sky;1920x1080;22;59.94;Nothing Ahead;ian-panelo;pexels-photo-40305017.jpeg;;17217461_1920_1080_60fps.mp4;17217460_1280_720_60fps.mp4
+17063119;a-ferris-wheel-against-a-dramatic-sunset-sky;4096x1746;18;30;photolife simon;;ferris-wheel-17063119.jpeg;17063119-uhd_4096_1746_30fps.mp4;17063119-uhd_2732_1164_30fps.mp4;17063119-hd_2048_874_30fps.mp4
+14073510;drone-video-of-the-pacific-park-on-the-santa-monica-pier-at-sunset;3840x2160;11;29.97;Grind 4K videos;;4-k-footage-aerial-drone-aerial-footage-aerial-view-14073510.jpeg;14073510-uhd_3840_2160_30fps.mp4;14073510-hd_1920_1080_30fps.mp4;14073510-hd_1280_720_30fps.mp4
+19539635;a-carnival-ride-with-people-on-it;3840x2160;18;23.98;K;kelly;pexels-photo-19539635.jpeg;19539635-uhd_3840_2160_24fps.mp4;19539635-hd_1920_1080_24fps.mp4;19539635-hd_1280_720_24fps.mp4
+39827518;aerial-view-of-vibrant-water-park-at-sunset;3840x2160;30;59.94;murod lens;;pexels-photo-39827518.jpeg;16986973_3840_2160_60fps.mp4;16986971_1920_1080_60fps.mp4;16986970_1280_720_60fps.mp4
+38670167;colorful-ferris-wheel-at-twilight;3840x2160;30;59.94;Leonardo Carminati;;pexels-photo-38670167.jpeg;16426037_3840_2160_60fps.mp4;16426034_1920_1080_60fps.mp4;16426032_1280_720_60fps.mp4
+#panorama,hero
+33525121;aerial-view-of-busy-outdoor-carnival;3840x2160;15;59.94;Altaf Shah;;pexels-photo-33525121.jpeg;14257083_3840_2160_60fps.mp4;14257081_1920_1080_60fps.mp4;14257080_1280_720_60fps.mp4
+32963478;aerial-view-of-amusement-park-ferris-wheel;3840x2160;7;23.98;K;kelly;pexels-photo-32963478.jpeg;14049008_3840_2160_24fps.mp4;14049005_1920_1080_24fps.mp4;14049003_1280_720_24fps.mp4
+32963345;aerial-view-of-amusement-park-near-lake;3840x2160;11;23.98;K;kelly;pexels-photo-32963345.jpeg;14048861_3840_2160_24fps.mp4;14048859_1920_1080_24fps.mp4;14048858_1280_720_24fps.mp4
+27785461;aerial-view-of-a-carnival-at-night;1920x1080;60;59.94;Soul Dronee;;pexels-photo-27785461.jpeg;;12224064_1920_1080_60fps.mp4;12224063_1280_720_60fps.mp4
+14881074;people-at-the-amusement-park-at-night;3840x2160;26;30;mohd hasan;mdkamal;pexels-photo-14881074.jpeg;14881074-uhd_3840_2160_30fps.mp4;14881074-hd_1920_1080_30fps.mp4;14881074-hd_1280_720_30fps.mp4
+9445925;amusement-park-beside-a-road;3840x2160;30;23.98;K;kelly;pexels-photo-9445925.jpeg;9445925-uhd_3840_2160_24fps.mp4;9445925-hd_1920_1080_24fps.mp4;9445925-hd_1280_720_24fps.mp4
+33832405;aerial-view-of-outdoor-carnival-with-crowds;3840x2160;16;59.94;Altaf Shah;;pexels-photo-33832405.jpeg;14358207_3840_2160_60fps.mp4;14358205_1920_1080_60fps.mp4;14358204_1280_720_60fps.mp4
+34735883;aerial-view-of-outdoor-festival-with-rides;3840x2160;31;59.94;Altaf Shah;;pexels-photo-34735883.jpeg;14724992_3840_2160_60fps.mp4;14724987_1920_1080_60fps.mp4;14724984_1280_720_60fps.mp4
+31857818;stunning-aerial-view-of-a-vibrant-fairground;3840x2160;15;30;Willis Dell;;4k-aerial-footage-4k-drone-footage-carnival-fair-31857818.jpeg;13571449_3840_2160_30fps.mp4;13571447_1920_1080_30fps.mp4;13571446_1280_720_30fps.mp4
+32481490;aerial-view-of-vibrant-outdoor-fair;3840x2160;16;59.94;Altaf Shah;;pexels-photo-32481490.jpeg;13850842_3840_2160_60fps.mp4;13850838_1920_1080_60fps.mp4;13850837_1280_720_60fps.mp4
+33264973;aerial-view-of-vibrant-outdoor-carnival-event;3840x2160;63;29.97;Be The Observer;;county-fair-33264973.jpeg;14171853_3840_2160_30fps.mp4;14171851_1920_1080_30fps.mp4;14171850_1280_720_30fps.mp4
+32963335;aerial-view-of-amusement-park-ride;3840x2160;9;23.98;K;kelly;pexels-photo-32963335.jpeg;14048872_3840_2160_24fps.mp4;14048868_1920_1080_24fps.mp4;14048867_1280_720_24fps.mp4
+#carousel,detail
+35192650;festive-night-at-a-holiday-carousel;3840x2160;17;24;Trev W. Adams;Trev-takes-photos;carousel-christmas-christmas-market-christmas-village-35192650.jpeg;14909405_3840_2160_24fps.mp4;14909403_1920_1080_24fps.mp4;14909402_1280_720_24fps.mp4
+33980791;colorful-carousel-lit-up-at-twilight;1920x1080;15;30;Abraham Moreno;;carousel-spinning-at-sunset-hour-33980791.jpeg;;14416379_1920_1080_30fps.mp4;14416378_1280_720_30fps.mp4
+30021380;vibrant-carousel-in-florence-at-night;3840x2160;13;23.98;Mihaela Claudia Puscas;;florence-italy-30021380.jpeg;12880531_3840_2160_24fps.mp4;12880529_1920_1080_24fps.mp4;12880528_1280_720_24fps.mp4
+35876719;nighttime-carousel-at-amusement-park;3840x2160;14;59.94;Mariano Quintero;;4k-adrenaline-amusement-amusement-park-35876719.jpeg;15215935_3840_2160_60fps.mp4;15215933_1920_1080_60fps.mp4;15215932_1280_720_60fps.mp4
+8224512;blurred-video-of-a-carousel;3840x2160;32;25;ArtHouse Studio;ArtHouseStudio;pexels-photo-8224512.jpeg;8224512-uhd_3840_2160_25fps.mp4;8224512-hd_1920_1080_25fps.mp4;8224512-hd_1280_720_25fps.mp4
+33980787;charming-venetian-carousel-in-daylight;1920x1080;14;30;Abraham Moreno;;cinematic-carousel-with-glowing-lights-33980787.jpeg;;14416375_1920_1080_30fps.mp4;14416374_1280_720_30fps.mp4
+29831554;vibrant-nighttime-amusement-park-rides;3840x2160;30;30;eQzit;;amusement-park-at-night-amusement-ride-29831554.jpeg;12812333_3840_2160_30fps.mp4;12812331_1920_1080_30fps.mp4;12812330_1280_720_30fps.mp4
+36441520;colorful-night-carousel-ride-in-motion;1920x1080;11;30;Uriel Pacheco;;pexels-photo-36441520.jpeg;;15452871_1920_1080_30fps.mp4;15452870_1280_720_30fps.mp4
+40755959;enchanting-nighttime-carousel-ride-in-autumn;3840x2160;5;25;Florian Delee;;4k-city-active-child-afterdark-amusement-ride-40755959.jpeg;17406763_3840_2160_25fps.mp4;17406757_1920_1080_25fps.mp4;17406754_1280_720_25fps.mp4
+#swing
+35414519;exciting-swing-ride-at-dusk-in-carnival;1920x1080;6;29.97;S.U;;amusement-park-big-wheel-festival-outdoor-leisure-35414519.jpeg;;15004794_1920_1080_30fps.mp4;15004793_1280_720_30fps.mp4
+31942504;vibrant-swing-carousel-ride-at-amusement-park;1920x1080;36;25;Rudi;Rudilum;carousel-31942504.jpeg;;13607134_1920_1080_25fps.mp4;13607133_1280_720_25fps.mp4
+31051701;swinging-tower-ride-in-amusement-park-on-sunny-day;1920x1080;17;29.97;dp singh Bhullar;dpsinghbhullar;pexels-photo-31051701.jpeg;;13270640_1920_1080_30fps.mp4;13270639_1280_720_30fps.mp4
+28000868;a-carnival-ride-with-people-on-it-and-a-blue-sky;1920x1080;14;23.98;AP Vibes;APVibes;amusement-attraction-blue-park-28000868.jpeg;;12285915_1920_1080_24fps.mp4;12285914_1280_720_24fps.mp4
+38646659;exciting-ferris-wheel-ride-at-amusement-park;3840x2160;7;60;Amar Preciado;Amar;camera-film-fair-38646659.jpeg;16414379_3840_2160_60fps.mp4;16414377_1920_1080_60fps.mp4;16414376_1280_720_60fps.mp4
+40802118;thrilling-amusement-park-swing-ride-experience;1920x1080;26;50;Monirul Islam;monirulislam;pexels-photo-40802118.jpeg;;17433316_1920_1080_50fps.mp4;17433313_1280_720_50fps.mp4
+35812347;swing-carousel-ride-at-night-carnival-fiesta;3840x1644;6;60;Nandu;;at-night-carnival-carnival-rides-festive-light-35812347.jpeg;15183906_3364_1440_60fps.mp4;15183905_2522_1080_60fps.mp4;15183904_1682_720_60fps.mp4

@@ -1,0 +1,43 @@
+/* Concept A — Wonderverse. Owned by concept A only. */
+@import "./page.css";
+@import "./pages.css";
+
+@theme {
+  --color-a-ink: #120C1C;
+  --color-a-plum: #2B1A3D;
+  --color-a-violet: #6B4FA0;
+  --color-a-tungsten: #E8B04B;
+  --color-a-pearl: #EDE8F3;
+  --color-a-rose: #FF5C8A;
+  --color-a-peach: #F2A27E;
+  --font-a-display: var(--font-a-display);
+  --font-a-body: var(--font-a-body);
+}
+
+:root:has(.concept-a) { background: #120C1C; color-scheme: dark; }
+
+.concept-a {
+  --focus-ring: #E8B04B;
+  --back-bg: color-mix(in oklab, #2B1A3D 70%, transparent);
+  --back-fg: #EDE8F3;
+  --back-font: var(--font-a-body);
+  --pause-bg: color-mix(in oklab, #120C1C 55%, transparent);
+  --pause-fg: #EDE8F3;
+  --ph-label-bg: #2B1A3D;
+  --ph-label-fg: #EDE8F3;
+  --sb-bg: #120C1C;
+  --sb-fg: #EDE8F3;
+  --sb-muted: color-mix(in oklab, #EDE8F3 74%, #120C1C);
+  --sb-surface: #2B1A3D;
+  --sb-line: color-mix(in oklab, #EDE8F3 14%, transparent);
+  --sb-accent: #E8B04B;
+  --sb-on-accent: #120C1C;
+  --sb-display-font: var(--font-a-display);
+  --sb-body-font: var(--font-a-body);
+  --sb-display-weight: 300;
+  --sb-display-tracking: 0.02em;
+  background: #120C1C;
+  color: #EDE8F3;
+  font-family: var(--font-a-body), system-ui, sans-serif;
+  min-height: 100dvh;
+}

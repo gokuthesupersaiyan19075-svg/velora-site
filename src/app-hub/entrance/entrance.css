@@ -1,0 +1,1675 @@
+/* Entrance redesign variations (studio mockups of the public portal): The Gate, The Ticket, The Night Sky.
+   Everything is scoped with the ent- prefix. Only transform and opacity animate. */
+
+:root:has(.ent) {
+  background: #07060b;
+  color-scheme: dark;
+}
+
+.ent {
+  --ent-ink: #f5f2ec;
+  --ent-muted: rgba(245, 242, 236, 0.74);
+  --gutter: clamp(16px, 3.2vw, 48px);
+  --bar-h: 72px;
+  --foot-h: 44px;
+  --focus-ring: #ffffff;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  height: max(100dvh, 540px);
+  overflow: hidden;
+  color: var(--ent-ink);
+  background: #07060b;
+  font-family: var(--font-hub), system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ent :focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+/* ---------- shared chrome ---------- */
+.ent-bar {
+  position: absolute;
+  z-index: 30;
+  inset: 0 0 auto 0;
+  height: var(--bar-h);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 var(--gutter);
+  pointer-events: none;
+}
+.ent-bar::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 -36px 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(5, 4, 10, 0.62), rgba(5, 4, 10, 0));
+  pointer-events: none;
+}
+.ent-bar > * {
+  pointer-events: auto;
+}
+
+.ent-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  flex: none;
+}
+.ent-brand-word {
+  font-weight: 700;
+  font-size: clamp(1.05rem, 1.55vw, 1.35rem);
+  letter-spacing: 0.2em;
+  margin-right: -0.2em;
+  line-height: 1;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+}
+
+.ent-bar-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ent .ent-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(10, 8, 18, 0.46);
+  color: #fff;
+  font: 600 0.8125rem/1 var(--font-hub), system-ui, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    transform 180ms var(--ease-out),
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+.ent .ent-chip:hover {
+  transform: translateY(-1px);
+  background: rgba(10, 8, 18, 0.66);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.ent .ent-chip:active {
+  transform: scale(0.97);
+}
+.ent .ent-sound {
+  backdrop-filter: none;
+}
+
+/* Enter actions: one button style, each world's own colours. */
+.ent .ent-enter {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+  padding: 0 22px 0 24px;
+  border-radius: 999px;
+  background: var(--w-accent);
+  color: var(--w-bg);
+  font: 700 0.9375rem/1 var(--font-hub), system-ui, sans-serif;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 220ms var(--ease-out);
+}
+.ent .ent-enter:hover {
+  transform: translateY(-2px);
+}
+.ent .ent-enter:active {
+  transform: translateY(0) scale(0.98);
+}
+.ent-arrow {
+  flex: none;
+  transition: transform 220ms var(--ease-out);
+}
+.ent .ent-enter:hover .ent-arrow {
+  transform: translateX(3px);
+}
+
+/* Continue in <world> (returning visitors) */
+.ent .ent-enter.ent-continue {
+  min-height: 44px;
+  gap: 10px;
+  padding: 0 16px 0 14px;
+  background: rgba(250, 248, 243, 0.94);
+  color: #0d0b12;
+  font-weight: 500;
+  font-size: 0.8125rem;
+}
+.ent-continue strong {
+  font-weight: 700;
+}
+.ent-continue-dot {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--w-accent);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--w-accent) 32%, transparent);
+}
+
+.ent-foot {
+  position: absolute;
+  z-index: 25;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 10px var(--gutter) calc(12px + env(safe-area-inset-bottom));
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.76);
+  pointer-events: none;
+}
+
+.ent .ent-skip {
+  position: absolute;
+  z-index: 60;
+  right: var(--gutter);
+  bottom: calc(env(safe-area-inset-bottom) + 48px);
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font: 600 0.8125rem/1 var(--font-hub), system-ui, sans-serif;
+  cursor: pointer;
+  transition: transform 180ms var(--ease-out);
+}
+.ent .ent-skip:hover {
+  transform: translateY(-1px);
+}
+
+/* Fine-pointer vs touch hints */
+.ent-gate-hint-touch,
+.ent-tk-hint-touch,
+.ent-sky-hint-touch {
+  display: none;
+}
+@media (hover: none), (pointer: coarse) {
+  .ent-gate-hint-fine,
+  .ent-tk-hint-fine,
+  .ent-sky-hint-fine {
+    display: none;
+  }
+  .ent-gate-hint-touch,
+  .ent-tk-hint-touch,
+  .ent-sky-hint-touch {
+    display: inline;
+  }
+}
+
+/* Phones: icon-only chips, compact continue pill. */
+@media (max-width: 639px) {
+  .ent {
+    --bar-h: 64px;
+    --foot-h: 52px;
+  }
+  .ent-bar-actions {
+    gap: 6px;
+  }
+  .ent .ent-chip-label,
+  .ent .ent-sound .velora-sound__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .ent .ent-chip:has(.ent-chip-label),
+  .ent .ent-sound {
+    width: 44px;
+    padding: 0;
+  }
+  .ent-bar:has(.ent-continue) .ent-brand-word {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .ent .ent-enter.ent-continue {
+    padding: 0 12px;
+  }
+  .ent .ent-enter.ent-continue .ent-arrow {
+    display: none;
+  }
+}
+@media (max-width: 379px) {
+  .ent-continue span:not(.ent-continue-dot) {
+    font-size: 0;
+  }
+  .ent-continue strong {
+    font-size: 0.8125rem;
+  }
+}
+
+/* ======================================================================
+   1. THE GATE
+   ====================================================================== */
+.ent-gate {
+  --gate-pad: clamp(20px, 3.4vw, 56px);
+}
+
+.ent-gate-title {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: var(--bar-h);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  transform: translateX(-50%);
+  font: 500 0.875rem/1.2 var(--font-hub), system-ui, sans-serif;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.88);
+  white-space: nowrap;
+  pointer-events: none;
+}
+@media (max-width: 1199px) {
+  .ent-gate-title {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+}
+
+.ent-gate-stage {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  touch-action: manipulation;
+  overscroll-behavior: none;
+}
+.ent-gate[data-mode="split"] .ent-gate-media {
+  cursor: pointer;
+}
+
+.ent-gate-world {
+  position: absolute;
+  inset: 0;
+  background: var(--w-bg);
+  color: var(--w-fg);
+}
+.ent-gate-media {
+  position: absolute;
+  inset: 0;
+}
+.ent-gate-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Wonderverse's clip is mirrored so the rides sit on the left, away from the seam. */
+.ent-gate-world--w .ent-gate-video {
+  transform: scaleX(-1);
+  object-position: 40% 50%;
+}
+.ent-gate-tint,
+.ent-gate-dim {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.ent-gate-dim {
+  background: #05040a;
+  opacity: 0;
+}
+.ent-gate-world--w .ent-gate-tint {
+  background:
+    linear-gradient(rgba(255, 105, 160, 0.18), rgba(255, 105, 160, 0.18)),
+    linear-gradient(to top, rgba(18, 12, 28, 0.94) 0%, rgba(18, 12, 28, 0.58) 34%, rgba(18, 12, 28, 0) 64%),
+    linear-gradient(to right, rgba(18, 12, 28, 0.22), rgba(18, 12, 28, 0) 40%);
+}
+.ent-gate-world--t .ent-gate-tint {
+  background:
+    linear-gradient(to top, rgba(22, 20, 150, 0.94) 0%, rgba(46, 43, 255, 0.52) 34%, rgba(46, 43, 255, 0) 64%),
+    linear-gradient(to left, rgba(22, 20, 150, 0.55), rgba(22, 20, 150, 0) 48%);
+}
+
+.ent-gate-mask,
+.ent-gate-mask-inner {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+}
+.ent-gate-mask {
+  overflow: hidden;
+  z-index: 2;
+}
+.ent-gate[data-axis="x"] .ent-gate-mask {
+  transform: translate3d(-50%, 0, 0);
+}
+.ent-gate[data-axis="x"] .ent-gate-mask-inner {
+  transform: translate3d(50%, 0, 0);
+}
+.ent-gate[data-axis="y"] .ent-gate-mask {
+  transform: translate3d(0, -50%, 0);
+}
+.ent-gate[data-axis="y"] .ent-gate-mask-inner {
+  transform: translate3d(0, 50%, 0);
+}
+
+/* Copy */
+.ent-gate-copy {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ent-gate-namebox {
+  display: inline-block;
+  margin-bottom: 6px;
+  will-change: transform;
+}
+.ent-gate-name {
+  margin: 0;
+  white-space: nowrap;
+}
+.ent-gate-world--w .ent-gate-name {
+  font-family: var(--font-ent-wonder), var(--font-hub), sans-serif;
+  font-weight: 800;
+  font-size: clamp(3.25rem, 8.4vw, 10rem);
+  line-height: 0.84;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: var(--w-fg);
+}
+.ent-gate-world--t .ent-gate-name {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: 125%;
+  font-size: clamp(2.3rem, 4.5vw, 6rem);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--w-fg);
+}
+.ent-gate-promise {
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(1.05rem, 1.45vw, 1.5rem);
+  line-height: 1.25;
+  color: var(--w-accent);
+}
+.ent-gate-world--w .ent-gate-promise,
+.ent-gate-world--w .ent-gate-line-copy {
+  font-family: var(--font-ent-wonder-body), var(--font-hub), sans-serif;
+}
+.ent-gate-world--t .ent-gate-promise,
+.ent-gate-world--t .ent-gate-line-copy {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+}
+.ent-gate-line-copy {
+  margin: 0;
+  max-width: 38ch;
+  font-size: clamp(0.9375rem, 1.05vw, 1.0625rem);
+  line-height: 1.5;
+  color: color-mix(in oklab, var(--w-fg) 86%, transparent);
+}
+.ent-gate-actions {
+  margin-top: 8px;
+}
+
+/* Side by side */
+.ent-gate[data-axis="x"] .ent-gate-copy {
+  bottom: calc(var(--foot-h) + var(--gate-pad) * 0.6);
+  width: calc(50% - 2 * var(--gate-pad));
+}
+.ent-gate[data-axis="x"] .ent-gate-world--w .ent-gate-copy {
+  left: var(--gate-pad);
+  align-items: flex-start;
+  text-align: left;
+}
+.ent-gate[data-axis="x"] .ent-gate-world--t .ent-gate-copy {
+  right: var(--gate-pad);
+  align-items: flex-end;
+  text-align: right;
+}
+.ent-gate[data-axis="x"] .ent-gate-world--w .ent-gate-namebox {
+  transform-origin: 0 100%;
+}
+.ent-gate[data-axis="x"] .ent-gate-world--t .ent-gate-namebox {
+  transform-origin: 100% 100%;
+}
+
+/* Stacked (phones, portrait tablets) */
+.ent-gate[data-axis="y"] .ent-gate-copy {
+  left: var(--gutter);
+  right: var(--gutter);
+  align-items: flex-start;
+  gap: 8px;
+}
+.ent-gate[data-axis="y"] .ent-gate-world--w .ent-gate-copy {
+  top: calc(var(--bar-h) + 52px);
+}
+.ent-gate[data-axis="y"] .ent-gate-world--t .ent-gate-copy {
+  bottom: calc(var(--foot-h) + 16px);
+}
+.ent-gate[data-axis="y"] .ent-gate-world--w .ent-gate-namebox {
+  transform-origin: 0 0;
+}
+.ent-gate[data-axis="y"] .ent-gate-world--t .ent-gate-namebox {
+  transform-origin: 0 100%;
+}
+.ent-gate[data-axis="y"] .ent-gate-world--w .ent-gate-name {
+  font-size: clamp(2.75rem, 14vw, 6rem);
+}
+.ent-gate[data-axis="y"] .ent-gate-world--t .ent-gate-name {
+  font-size: clamp(1.9rem, 8.4vw, 4rem);
+}
+.ent-gate[data-axis="y"] .ent-gate-promise {
+  font-size: 1rem;
+}
+.ent-gate[data-axis="y"][data-mode="split"] .ent-gate-rest {
+  display: none;
+}
+.ent-gate[data-axis="y"] .ent-gate-actions {
+  margin-top: 4px;
+}
+.ent-gate[data-axis="y"] .ent-gate-world--w .ent-gate-tint {
+  background: linear-gradient(to bottom, rgba(18, 12, 28, 0.92) 0%, rgba(18, 12, 28, 0.5) 34%, rgba(18, 12, 28, 0) 60%);
+}
+.ent-gate[data-axis="y"][data-mode="wonderverse"] .ent-gate-world--w .ent-gate-tint {
+  background: linear-gradient(to bottom, rgba(18, 12, 28, 0.94) 0%, rgba(18, 12, 28, 0.6) 46%, rgba(18, 12, 28, 0.1) 80%);
+}
+.ent-gate[data-axis="y"] .ent-gate-world--t .ent-gate-tint {
+  background: linear-gradient(to top, rgba(22, 20, 150, 0.94) 0%, rgba(46, 43, 255, 0.5) 34%, rgba(46, 43, 255, 0) 60%);
+}
+@media (max-height: 620px) {
+  .ent-gate[data-axis="x"] .ent-gate-rest {
+    display: none;
+  }
+}
+
+/* Seam */
+.ent-gate-seam {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  will-change: transform;
+}
+.ent-gate[data-axis="x"] .ent-gate-seam {
+  width: 0;
+  height: 100%;
+  transform: translate3d(50vw, 0, 0);
+}
+.ent-gate[data-axis="y"] .ent-gate-seam {
+  width: 100%;
+  height: 0;
+  transform: translate3d(0, 50dvh, 0);
+}
+.ent-gate-seam-inner {
+  position: absolute;
+  inset: 0;
+}
+.ent-gate-line,
+.ent-gate-glow,
+.ent-gate-spark {
+  position: absolute;
+  display: block;
+}
+.ent-gate[data-axis="x"] .ent-gate-line {
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  width: 2px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 16%, #fff 84%, rgba(255, 255, 255, 0));
+}
+.ent-gate[data-axis="y"] .ent-gate-line {
+  left: 0;
+  right: 0;
+  top: -1px;
+  height: 2px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 12%, #fff 88%, rgba(255, 255, 255, 0));
+}
+.ent-gate-glow {
+  opacity: 0.8;
+  animation: ent-breathe 4.8s ease-in-out infinite;
+}
+.ent-gate[data-axis="x"] .ent-gate-glow {
+  top: 0;
+  bottom: 0;
+  left: -90px;
+  width: 180px;
+  background: linear-gradient(
+    to right,
+    rgba(232, 176, 75, 0) 0%,
+    rgba(232, 176, 75, 0.26) 40%,
+    rgba(255, 249, 236, 0.5) 50%,
+    rgba(110, 120, 255, 0.3) 60%,
+    rgba(46, 43, 255, 0) 100%
+  );
+}
+.ent-gate[data-axis="y"] .ent-gate-glow {
+  left: 0;
+  right: 0;
+  top: -70px;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    rgba(232, 176, 75, 0) 0%,
+    rgba(232, 176, 75, 0.26) 40%,
+    rgba(255, 249, 236, 0.5) 50%,
+    rgba(110, 120, 255, 0.3) 60%,
+    rgba(46, 43, 255, 0) 100%
+  );
+}
+.ent-gate-spark {
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  margin: -3px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 14px 5px rgba(255, 236, 200, 0.85);
+}
+.ent-gate[data-axis="x"] .ent-gate-spark {
+  animation: ent-spark-y 5.5s linear infinite;
+}
+.ent-gate[data-axis="y"] .ent-gate-spark {
+  animation: ent-spark-x 5.5s linear infinite;
+}
+@keyframes ent-breathe {
+  0%,
+  100% {
+    opacity: 0.62;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes ent-spark-y {
+  0% {
+    transform: translate3d(0, -4vh, 0);
+    opacity: 0;
+  }
+  12%,
+  88% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 104dvh, 0);
+    opacity: 0;
+  }
+}
+@keyframes ent-spark-x {
+  0% {
+    transform: translate3d(-4vw, 0, 0);
+    opacity: 0;
+  }
+  12%,
+  88% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(104vw, 0, 0);
+    opacity: 0;
+  }
+}
+
+/* Handle: magnetic knob on the seam (a slider for keyboards) */
+.ent-gate-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+  margin: -32px 0 0 -32px;
+  border-radius: 50%;
+  pointer-events: auto;
+  touch-action: none;
+  cursor: grab;
+  will-change: transform;
+}
+.ent-gate[data-axis="x"] .ent-gate-handle {
+  transform: translate3d(0, 50dvh, 0);
+}
+.ent-gate[data-axis="y"] .ent-gate-handle {
+  transform: translate3d(50vw, 0, 0);
+}
+.ent-gate-handle:active {
+  cursor: grabbing;
+}
+.ent-gate-knob {
+  position: absolute;
+  inset: 5px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #f7f3ec;
+  color: #120c1c;
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.35),
+    0 0 0 6px rgba(255, 255, 255, 0.16);
+  transition: transform 320ms var(--ease-out);
+}
+.ent-gate-handle:hover .ent-gate-knob {
+  transform: scale(1.08);
+}
+.ent-gate-handle:active .ent-gate-knob {
+  transform: scale(0.96);
+}
+.ent-gate-handle:focus-visible {
+  outline: none;
+}
+.ent-gate-handle:focus-visible .ent-gate-knob {
+  outline: 3px solid #fff;
+  outline-offset: 5px;
+}
+.ent-gate[data-axis="y"] .ent-gate-knob svg {
+  transform: rotate(90deg);
+}
+.ent-gate-hint {
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: rgba(8, 6, 14, 0.72);
+  color: #fff;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 400ms ease;
+}
+.ent-gate-hint[data-hidden] {
+  opacity: 0;
+}
+.ent-gate[data-axis="y"] .ent-gate-hint {
+  top: calc(100% + 10px);
+}
+
+/* Open-world navigation */
+.ent-gate-opennav {
+  position: absolute;
+  z-index: 8;
+  top: calc(var(--bar-h) + 4px);
+  left: var(--gutter);
+  right: var(--gutter);
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  opacity: 0;
+  transform: translate3d(0, -8px, 0);
+  pointer-events: none;
+  transition:
+    opacity 400ms ease,
+    transform 500ms var(--ease-out);
+}
+.ent-gate-opennav[data-show] {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+.ent-gate[data-mode="thrillverse"] .ent-gate-opennav {
+  flex-direction: row-reverse;
+}
+
+/* Opening: two doors part at the seam */
+.ent-gate-intro {
+  position: absolute;
+  z-index: 40;
+  inset: 0;
+  pointer-events: none;
+}
+.ent-gate-door {
+  position: absolute;
+  background: #08070d;
+  will-change: transform;
+}
+.ent-gate[data-axis="x"] .ent-gate-door--a {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50.5%;
+}
+.ent-gate[data-axis="x"] .ent-gate-door--b {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50.5%;
+}
+.ent-gate[data-axis="y"] .ent-gate-door--a {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50.5%;
+}
+.ent-gate[data-axis="y"] .ent-gate-door--b {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50.5%;
+}
+.ent-gate-intro-mid {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+.ent-gate-intro-line {
+  position: absolute;
+  display: block;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 20%, #fff 80%, rgba(255, 255, 255, 0));
+}
+.ent-gate[data-axis="x"] .ent-gate-intro-line {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  margin-left: -1px;
+}
+.ent-gate[data-axis="y"] .ent-gate-intro-line {
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 20%, #fff 80%, rgba(255, 255, 255, 0));
+}
+.ent-gate-intro-word {
+  position: relative;
+  padding: 12px 0.3em 12px 0.72em;
+  background: #08070d;
+  color: #fff;
+  font: 700 clamp(1.5rem, 3.4vw, 2.75rem)/1 var(--font-hub), system-ui, sans-serif;
+  letter-spacing: 0.42em;
+}
+
+/* "The Awakening": cinematic brand opening over the night park, before the selector. */
+.ent-gate-film { position: absolute; inset: 0; overflow: hidden; background: #0b1026; }
+.ent-gate-film-media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 60%; will-change: transform; }
+.ent-gate-film-scrim { position: absolute; inset: 0; background: #070a1c; opacity: 0.55; }
+.ent-gate-film-copy::before { content: ""; position: absolute; left: 50%; top: 50%; width: min(120vw, 1100px); height: min(70vh, 560px); transform: translate(-50%, -50%); background: radial-gradient(closest-side, rgba(5, 8, 22, 0.55), rgba(5, 8, 22, 0.3) 55%, rgba(5, 8, 22, 0)); z-index: -1; }
+.ent-gate-film-copy { z-index: 0; position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #f3f1f7; padding: 0 6% 2.4vh; }
+.ent-gate-film-lead { margin: 0; opacity: 0; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: clamp(0.85rem, 1.9vw, 1.55rem); line-height: 1; letter-spacing: 0.34em; color: #ffffff; text-shadow: 0 1px 14px rgba(0, 0, 0, 0.9); }
+.ent-gate-film-lead::before, .ent-gate-film-lead::after { content: ""; flex: none; width: clamp(2rem, 4.2vw, 4.4rem); height: 1px; background: rgba(255, 255, 255, 0.55); margin: 0 1.1em 0 0; }
+.ent-gate-film-lead::after { margin: 0 0 0 0.76em; } /* + the text's trailing letter-spacing = the same gap as the left line */
+.ent-gate-film-word { margin: 0.16em -0.08em 0 0; visibility: hidden; font-weight: 600; font-size: clamp(3.6rem, 10vw, 7.5rem); line-height: 0.95; letter-spacing: 0.08em; text-shadow: 0 2px 30px rgba(0, 0, 0, 0.85); }
+.ent-gate-film-tag { margin: clamp(0.5rem, 1.5vw, 1.2rem) 0 0; opacity: 0; font-style: italic; font-weight: 500; font-size: clamp(1.15rem, 2.2vw, 1.7rem); line-height: 1.25; letter-spacing: 0.01em; color: #ffe9b0; text-shadow: 0 1px 16px rgba(0, 0, 0, 0.95); }
+
+/* ======================================================================
+   2. THE TICKET
+   ====================================================================== */
+.ent-tk-back {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.ent-tk-split {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ent-ticket[data-axis="y"] .ent-tk-split {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.ent-tk-split-half {
+  position: relative;
+  overflow: hidden;
+}
+.ent-tk-split-half img {
+  object-fit: cover;
+}
+.ent-tk-full {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 900ms var(--ease-out);
+}
+.ent-ticket[data-lean="wonderverse"] .ent-tk-full--w,
+.ent-ticket[data-lean="thrillverse"] .ent-tk-full--t {
+  opacity: 1;
+}
+.ent-tk-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ent-tk-scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 72% 64% at 50% 54%, rgba(6, 5, 12, 0.38), rgba(6, 5, 12, 0.86) 100%),
+    linear-gradient(to bottom, rgba(6, 5, 12, 0.6), rgba(6, 5, 12, 0) 26%, rgba(6, 5, 12, 0) 70%, rgba(6, 5, 12, 0.72));
+}
+
+.ent-tk-stage {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  justify-items: center;
+  padding: calc(var(--bar-h) + 2px) var(--gutter) calc(var(--foot-h) + 8px);
+}
+.ent-tk-title {
+  margin: 0;
+  max-width: 32ch;
+  text-align: center;
+  font: 600 clamp(1.25rem, 2.2vw, 2rem)/1.15 var(--font-hub), system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+.ent-tk-scene {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  perspective: 1400px;
+  min-height: 0;
+}
+.ent-tk-rise {
+  transform-style: preserve-3d;
+}
+.ent-tk-ticket {
+  position: relative;
+  display: grid;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.ent-tk-ticket::before {
+  content: "";
+  position: absolute;
+  inset: 10% 6% -8%;
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0));
+  transform: translateZ(-60px);
+  pointer-events: none;
+}
+.ent-ticket[data-axis="x"] .ent-tk-ticket {
+  --tk-w: min(1080px, 88vw, calc((100dvh - 250px) * 2.1));
+  width: var(--tk-w);
+  height: calc(var(--tk-w) / 2.1);
+  grid-template-columns: 1fr 1fr;
+}
+.ent-ticket[data-axis="y"] .ent-tk-ticket {
+  width: min(92vw, 430px);
+  height: clamp(440px, calc(100dvh - 236px), 700px);
+  grid-template-rows: 1fr 1fr;
+}
+
+.ent-tk-stub {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  container-type: size;
+  touch-action: none;
+  user-select: none;
+  cursor: grab;
+  will-change: transform;
+}
+.ent-tk-stub:active {
+  cursor: grabbing;
+}
+.ent-ticket[data-torn] .ent-tk-stub {
+  cursor: default;
+}
+.ent-ticket[data-axis="x"] .ent-tk-stub--w {
+  transform-origin: 100% 100%;
+}
+.ent-ticket[data-axis="x"] .ent-tk-stub--t {
+  transform-origin: 0% 100%;
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--w {
+  transform-origin: 0% 100%;
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--t {
+  transform-origin: 100% 0%;
+}
+
+.ent-tk-face {
+  --notch: 15px;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: clamp(10px, 3cqh, 18px);
+  padding: clamp(14px, 4cqmin, 26px);
+  background: var(--w-bg);
+  color: var(--w-fg);
+}
+.ent-tk-stub--w .ent-tk-face {
+  background:
+    radial-gradient(120% 80% at 0% 100%, rgba(232, 176, 75, 0.16), rgba(232, 176, 75, 0) 60%),
+    var(--w-bg);
+}
+.ent-tk-stub--t .ent-tk-face {
+  background:
+    radial-gradient(120% 80% at 100% 100%, rgba(255, 184, 0, 0.18), rgba(255, 184, 0, 0) 60%),
+    var(--w-bg);
+}
+.ent-tk-face::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid color-mix(in oklab, var(--w-accent) 42%, transparent);
+  border-radius: 14px;
+  pointer-events: none;
+}
+/* Rounded outer corners and half-moon notches where the stubs meet. */
+.ent-ticket[data-axis="x"] .ent-tk-stub--w .ent-tk-face {
+  border-radius: 22px 0 0 22px;
+  padding-right: calc(clamp(14px, 4cqmin, 26px) + 30px);
+  -webkit-mask:
+    radial-gradient(circle var(--notch) at 100% 0, #0000 97%, #000) top / 100% 51% no-repeat,
+    radial-gradient(circle var(--notch) at 100% 100%, #0000 97%, #000) bottom / 100% 51% no-repeat;
+  mask:
+    radial-gradient(circle var(--notch) at 100% 0, #0000 97%, #000) top / 100% 51% no-repeat,
+    radial-gradient(circle var(--notch) at 100% 100%, #0000 97%, #000) bottom / 100% 51% no-repeat;
+}
+.ent-ticket[data-axis="x"] .ent-tk-stub--t .ent-tk-face {
+  border-radius: 0 22px 22px 0;
+  padding-left: calc(clamp(14px, 4cqmin, 26px) + 30px);
+  -webkit-mask:
+    radial-gradient(circle var(--notch) at 0 0, #0000 97%, #000) top / 100% 51% no-repeat,
+    radial-gradient(circle var(--notch) at 0 100%, #0000 97%, #000) bottom / 100% 51% no-repeat;
+  mask:
+    radial-gradient(circle var(--notch) at 0 0, #0000 97%, #000) top / 100% 51% no-repeat,
+    radial-gradient(circle var(--notch) at 0 100%, #0000 97%, #000) bottom / 100% 51% no-repeat;
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--w .ent-tk-face {
+  border-radius: 22px 22px 0 0;
+  padding-bottom: calc(clamp(14px, 4cqmin, 26px) + 22px);
+  -webkit-mask:
+    radial-gradient(circle var(--notch) at 0 100%, #0000 97%, #000) left / 51% 100% no-repeat,
+    radial-gradient(circle var(--notch) at 100% 100%, #0000 97%, #000) right / 51% 100% no-repeat;
+  mask:
+    radial-gradient(circle var(--notch) at 0 100%, #0000 97%, #000) left / 51% 100% no-repeat,
+    radial-gradient(circle var(--notch) at 100% 100%, #0000 97%, #000) right / 51% 100% no-repeat;
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--t .ent-tk-face {
+  border-radius: 0 0 22px 22px;
+  padding-top: calc(clamp(14px, 4cqmin, 26px) + 22px);
+  -webkit-mask:
+    radial-gradient(circle var(--notch) at 0 0, #0000 97%, #000) left / 51% 100% no-repeat,
+    radial-gradient(circle var(--notch) at 100% 0, #0000 97%, #000) right / 51% 100% no-repeat;
+  mask:
+    radial-gradient(circle var(--notch) at 0 0, #0000 97%, #000) left / 51% 100% no-repeat,
+    radial-gradient(circle var(--notch) at 100% 0, #0000 97%, #000) right / 51% 100% no-repeat;
+}
+
+.ent-tk-photo {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: color-mix(in oklab, var(--w-bg) 80%, #000);
+}
+.ent-tk-photo img {
+  object-fit: cover;
+  transition: transform 900ms var(--ease-out);
+}
+.ent-tk-stub:hover .ent-tk-photo img {
+  transform: scale(1.03);
+}
+
+.ent-tk-copy {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+.ent-tk-kicker {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font: 600 0.6875rem/1 var(--font-hub), system-ui, sans-serif;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--w-fg) 74%, transparent);
+}
+.ent-tk-name {
+  margin: 4px 0 0;
+  white-space: nowrap;
+  line-height: 0.88;
+}
+.ent-tk-stub--w .ent-tk-name {
+  font-family: var(--font-ent-wonder), var(--font-hub), sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 15cqw, 6rem);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #f2c66f;
+}
+.ent-tk-stub--t .ent-tk-name {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: 125%;
+  font-size: clamp(1.75rem, 9.6cqw, 4.2rem);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--w-fg);
+}
+.ent-tk-promise {
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(0.95rem, 3.6cqw, 1.25rem);
+  line-height: 1.25;
+}
+.ent-tk-stub--w .ent-tk-promise,
+.ent-tk-stub--w .ent-tk-line {
+  font-family: var(--font-ent-wonder-body), var(--font-hub), sans-serif;
+}
+.ent-tk-stub--t .ent-tk-promise,
+.ent-tk-stub--t .ent-tk-line {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+}
+.ent-tk-stub--t .ent-tk-promise {
+  color: var(--w-accent);
+}
+.ent-tk-line {
+  margin: 0;
+  max-width: 46ch;
+  font-size: clamp(0.8125rem, 2.8cqw, 0.9375rem);
+  line-height: 1.45;
+  color: color-mix(in oklab, var(--w-fg) 84%, transparent);
+}
+.ent-tk-actions {
+  margin-top: 8px;
+}
+.ent-tk-stub--t .ent-enter {
+  color: #13115c;
+}
+@container (max-height: 420px) {
+  .ent-tk-line {
+    display: none;
+  }
+}
+@container (max-height: 290px) {
+  .ent-tk-kicker {
+    display: none;
+  }
+}
+
+/* Barcode-style ornament along the perforation */
+.ent-tk-code {
+  position: absolute;
+  opacity: 0.38;
+  color: var(--w-fg);
+  pointer-events: none;
+}
+.ent-ticket[data-axis="x"] .ent-tk-code {
+  top: 18%;
+  bottom: 18%;
+  width: 16px;
+  background: repeating-linear-gradient(to bottom, currentColor 0 2px, transparent 2px 4px, currentColor 4px 5px, transparent 5px 9px, currentColor 9px 12px, transparent 12px 14px);
+}
+.ent-ticket[data-axis="x"] .ent-tk-stub--w .ent-tk-code {
+  right: 18px;
+}
+.ent-ticket[data-axis="x"] .ent-tk-stub--t .ent-tk-code {
+  left: 18px;
+}
+.ent-ticket[data-axis="y"] .ent-tk-code {
+  left: 20%;
+  right: 20%;
+  height: 12px;
+  background: repeating-linear-gradient(to right, currentColor 0 2px, transparent 2px 4px, currentColor 4px 5px, transparent 5px 9px, currentColor 9px 12px, transparent 12px 14px);
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--w .ent-tk-code {
+  bottom: 16px;
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--t .ent-tk-code {
+  top: 16px;
+}
+
+/* Holographic foil: an oversized iridescent sheet that slides with the tilt (transform only). */
+.ent-tk-foil {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.7;
+}
+.ent-tk-foil-sheet {
+  position: absolute;
+  inset: -50%;
+  display: block;
+  background: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 128, 110, 0.1) 37%,
+    rgba(255, 224, 120, 0.15) 41%,
+    rgba(130, 255, 196, 0.12) 45%,
+    rgba(120, 190, 255, 0.15) 49%,
+    rgba(255, 255, 255, 0) 57%
+  );
+  will-change: transform;
+}
+.ent-tk-glare {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.22) 50%, rgba(255, 255, 255, 0) 62%);
+  transform: translateX(-140%);
+  pointer-events: none;
+}
+.ent-tk-stub:hover .ent-tk-glare {
+  animation: ent-glare 1.5s var(--ease-out);
+}
+@keyframes ent-glare {
+  from {
+    transform: translateX(-140%);
+  }
+  to {
+    transform: translateX(140%);
+  }
+}
+
+/* Perforation and torn edges */
+.ent-tk-perf {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+.ent-ticket[data-axis="x"] .ent-tk-perf {
+  top: 20px;
+  bottom: 20px;
+  left: 50%;
+  width: 2px;
+  margin-left: -1px;
+  background: repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0 6px, rgba(255, 255, 255, 0) 6px 12px);
+}
+.ent-ticket[data-axis="y"] .ent-tk-perf {
+  left: 20px;
+  right: 20px;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  background: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.6) 0 6px, rgba(255, 255, 255, 0) 6px 12px);
+}
+.ent-tk-edge {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.ent-ticket[data-axis="x"] .ent-tk-edge {
+  top: 16px;
+  bottom: 16px;
+  width: 8px;
+}
+.ent-ticket[data-axis="x"] .ent-tk-stub--w .ent-tk-edge {
+  right: -7px;
+  background: conic-gradient(from 225deg at 100% 50%, var(--w-bg) 90deg, transparent 0) 0 0 / 8px 10px repeat-y;
+}
+.ent-ticket[data-axis="x"] .ent-tk-stub--t .ent-tk-edge {
+  left: -7px;
+  background: conic-gradient(from 45deg at 0 50%, var(--w-bg) 90deg, transparent 0) 0 0 / 8px 10px repeat-y;
+}
+.ent-ticket[data-axis="y"] .ent-tk-edge {
+  left: 16px;
+  right: 16px;
+  height: 8px;
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--w .ent-tk-edge {
+  bottom: -7px;
+  background: conic-gradient(from -45deg at 50% 100%, var(--w-bg) 90deg, transparent 0) 0 0 / 10px 8px repeat-x;
+}
+.ent-ticket[data-axis="y"] .ent-tk-stub--t .ent-tk-edge {
+  top: -7px;
+  background: conic-gradient(from 135deg at 50% 0, var(--w-bg) 90deg, transparent 0) 0 0 / 10px 8px repeat-x;
+}
+
+.ent-tk-after {
+  min-height: 44px;
+  margin-top: 14px;
+  display: grid;
+  place-items: center;
+}
+.ent-tk-hint {
+  margin: 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+/* ======================================================================
+   3. THE NIGHT SKY
+   ====================================================================== */
+.ent-sky {
+  background: #04060f;
+}
+.ent-sky-zoom {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+}
+.ent-sky-dusk {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0b1636 0%, #1d3263 42%, #6a4a50 74%, #d9854a 100%);
+}
+.ent-sky-horizon {
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  bottom: -32%;
+  height: 72%;
+  display: block;
+  background: radial-gradient(closest-side, rgba(255, 170, 90, 0.75), rgba(255, 140, 70, 0.24) 55%, rgba(255, 140, 70, 0));
+  will-change: transform;
+}
+.ent-sky-night {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background: radial-gradient(130% 80% at 50% 115%, #151a38 0%, #0a0e24 42%, #04060f 100%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ent-sky-night {
+    opacity: 1;
+  }
+}
+.ent-sky-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ent-sky-layout {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  padding: calc(var(--bar-h) + 4px) var(--gutter) calc(var(--foot-h) + 6px);
+}
+.ent-sky-head {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  text-align: center;
+}
+.ent-sky-title {
+  width: fit-content;
+  max-width: 30ch;
+  margin: 0;
+  font: 600 clamp(1.25rem, 2.3vw, 2.1rem)/1.15 var(--font-hub), system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+.ent-sky-hint {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: rgba(236, 240, 255, 0.76);
+}
+.ent-sky-districts {
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--gutter);
+}
+.ent-sky-district {
+  --anchor: min(23vw, 35dvh);
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: clamp(14px, 2.6dvh, 30px);
+}
+.ent-sky-anchor {
+  position: relative;
+  width: var(--anchor);
+  height: var(--anchor);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+.ent-sky-anchor:focus-visible {
+  outline: 2px dashed rgba(255, 255, 255, 0.85);
+  outline-offset: 10px;
+}
+.ent-sky-lantern {
+  position: absolute;
+  inset: 22%;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #05060c;
+  opacity: 0;
+  transform: scale(0.82);
+  transition:
+    opacity 600ms var(--ease-out),
+    transform 800ms var(--ease-out);
+}
+.ent-sky-district[data-lit] .ent-sky-lantern {
+  opacity: 1;
+  transform: none;
+}
+.ent-sky-lantern-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ent-sky-label {
+  width: fit-content;
+  max-width: 36ch;
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  text-align: center;
+}
+.ent-sky-name {
+  margin: 0;
+  white-space: nowrap;
+  line-height: 0.9;
+}
+.ent-sky-district--w .ent-sky-name {
+  font-family: var(--font-ent-wonder), var(--font-hub), sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.3rem, 4.4vw, 4.6rem);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #f2c66f;
+}
+.ent-sky-district--t .ent-sky-name {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: 125%;
+  font-size: clamp(1.6rem, 2.9vw, 3rem);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f2;
+}
+.ent-sky-promise {
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(1rem, 1.3vw, 1.25rem);
+}
+.ent-sky-district--w .ent-sky-promise,
+.ent-sky-district--w .ent-sky-line {
+  font-family: var(--font-ent-wonder-body), var(--font-hub), sans-serif;
+}
+.ent-sky-district--t .ent-sky-promise,
+.ent-sky-district--t .ent-sky-line {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+}
+.ent-sky-district--t .ent-sky-promise {
+  color: #ffc533;
+}
+.ent-sky-line {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: rgba(236, 240, 255, 0.8);
+}
+.ent-sky-label .ent-enter {
+  margin-top: 8px;
+}
+.ent-sky-district--t .ent-enter {
+  color: #13115c;
+}
+
+@media (max-width: 767px), (max-aspect-ratio: 1/1) {
+  .ent-sky-districts {
+    grid-template-columns: 1fr;
+    align-content: space-evenly;
+    gap: 6px;
+  }
+  .ent-sky-district {
+    --anchor: min(42vw, 20dvh);
+    gap: 10px;
+  }
+  .ent-sky-line {
+    display: none;
+  }
+  .ent-sky-label .ent-enter {
+    margin-top: 4px;
+  }
+}
+@media (max-height: 600px) and (min-aspect-ratio: 1/1) {
+  .ent-sky-line,
+  .ent-sky-hint {
+    display: none;
+  }
+  .ent-sky-district {
+    grid-auto-flow: column;
+    --anchor: min(22vw, 42dvh);
+  }
+}
+
+/* Flying in: the chosen world's film */
+.ent-sky-reveal {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  background: var(--w-bg);
+  color: var(--w-fg);
+}
+.ent-sky-reveal-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  will-change: transform;
+}
+.ent-sky-reveal-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ent-sky-reveal-shade {
+  position: absolute;
+  inset: 0;
+}
+.ent-sky-reveal--w .ent-sky-reveal-shade {
+  background:
+    linear-gradient(to top, rgba(18, 12, 28, 0.94) 0%, rgba(18, 12, 28, 0.42) 46%, rgba(18, 12, 28, 0.18) 100%),
+    linear-gradient(to right, rgba(18, 12, 28, 0.6), rgba(18, 12, 28, 0) 60%);
+}
+.ent-sky-reveal--t .ent-sky-reveal-shade {
+  background:
+    linear-gradient(to top, rgba(22, 20, 150, 0.94) 0%, rgba(46, 43, 255, 0.4) 46%, rgba(46, 43, 255, 0.12) 100%),
+    linear-gradient(to right, rgba(22, 20, 150, 0.6), rgba(22, 20, 150, 0) 60%);
+}
+.ent-sky-reveal-copy {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: calc(var(--foot-h) + 20px);
+  max-width: 62rem;
+  display: grid;
+  justify-items: start;
+  gap: 12px;
+}
+.ent-sky-reveal-name {
+  margin: 0;
+  line-height: 0.86;
+  white-space: nowrap;
+}
+.ent-sky-reveal--w .ent-sky-reveal-name {
+  font-family: var(--font-ent-wonder), var(--font-hub), sans-serif;
+  font-weight: 800;
+  font-size: clamp(3.4rem, 12vw, 12rem);
+  text-transform: uppercase;
+}
+.ent-sky-reveal--t .ent-sky-reveal-name {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: 125%;
+  font-size: clamp(2.2rem, 7.6vw, 8rem);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.ent-sky-reveal-promise {
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(1.15rem, 2vw, 1.75rem);
+  color: var(--w-accent);
+}
+.ent-sky-reveal-summary {
+  margin: 0;
+  max-width: 52ch;
+  font-size: clamp(0.95rem, 1.2vw, 1.125rem);
+  line-height: 1.55;
+  color: color-mix(in oklab, var(--w-fg) 88%, transparent);
+}
+.ent-sky-reveal--w .ent-sky-reveal-promise,
+.ent-sky-reveal--w .ent-sky-reveal-summary {
+  font-family: var(--font-ent-wonder-body), var(--font-hub), sans-serif;
+}
+.ent-sky-reveal--t .ent-sky-reveal-promise,
+.ent-sky-reveal--t .ent-sky-reveal-summary {
+  font-family: var(--font-ent-thrill), var(--font-hub), sans-serif;
+}
+.ent-sky-reveal--t .ent-enter {
+  color: #13115c;
+}
+.ent-sky-reveal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+/* ======================================================================
+   Studio index of the variations
+   ====================================================================== */
+.ent-index {
+  min-height: 100dvh;
+  padding: clamp(24px, 5vw, 72px) var(--gutter, 24px);
+  background: #0c0b10;
+  color: #efedf3;
+  font-family: var(--font-hub), system-ui, sans-serif;
+}
+.ent-index-head {
+  max-width: 64rem;
+  margin: 0 auto 40px;
+}
+.ent-index-crumbs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 28px;
+  font-size: 0.875rem;
+  color: #a9a6b3;
+}
+.ent-index-crumbs a {
+  color: inherit;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.ent-index h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.ent-index-lede {
+  margin: 0;
+  max-width: 60ch;
+  color: #b7b4c0;
+  line-height: 1.6;
+}
+.ent-index-list {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+.ent-index-item a {
+  display: grid;
+  gap: 6px;
+  padding: 22px 24px;
+  border-radius: 16px;
+  border: 1px solid #2c2a33;
+  background: #15141a;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform 200ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 200ms ease;
+}
+.ent-index-item a:hover {
+  transform: translateY(-2px);
+  border-color: #4a4753;
+}
+.ent-index-item a:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+.ent-index-item strong {
+  font-size: 1.25rem;
+}
+.ent-index-item span {
+  color: #b7b4c0;
+  line-height: 1.5;
+}
+
+/* Before hydration the animated scenes stay hidden, so the opening never flashes its end state.
+   Without JavaScript they appear after a moment anyway. */
+@media (prefers-reduced-motion: no-preference) {
+  .ent-ticket:not([data-ready]) .ent-tk-stage,
+  .ent-ticket:not([data-ready]) .ent-tk-back,
+  .ent-sky:not([data-ready]) .ent-sky-layout {
+    opacity: 0;
+    animation: ent-no-js 1ms 3s forwards;
+  }
+}
+@keyframes ent-no-js {
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------- Reduced motion: everything rests ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .ent-gate-intro,
+  .ent .ent-skip {
+    display: none;
+  }
+  .ent-gate-glow,
+  .ent-gate-spark,
+  .ent-tk-stub:hover .ent-tk-glare {
+    animation: none;
+  }
+  .ent-gate-spark {
+    display: none;
+  }
+  .ent *,
+  .ent *::before,
+  .ent *::after {
+    transition-duration: 1ms !important;
+  }
+}

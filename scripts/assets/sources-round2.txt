@@ -1,0 +1,180 @@
+# Round 2 (curated visually for colour and exposure; identifiable real parks excluded)
+# kind|provider|category|id|slug|WxH|duration|fps|creator|handle|file-path-or-url
+v|pexels|coaster|3006889|people-on-a-roller-coaster-ride-having-fun|1920x1080|28|24|Athena Sandrini|Athena|3006889/3006889-hd_1920_1080_24fps.mp4
+v|pexels|coaster|9445929|drone-footage-of-a-roller-coaster|3840x2160|8|24|K|kelly|9445929/9445929-uhd_3840_2160_24fps.mp4
+v|pexels|coaster|13279753|people-on-roller-coaster|1920x1080|6|50|Harvey Tan Villarino|harveyvillarino|13279753/13279753-hd_1920_1080_50fps.mp4
+v|pexels|coaster|14367734|people-on-roller-coaster|3840x2160|6|30|The4KTravelChannel Travel||14367734/14367734-uhd_3840_2160_30fps.mp4
+v|pexels|coaster|34430969|aerial-view-of-colorful-amusement-park-roller-coaster|3840x2160|49|30|Aleson Padilha||34430969/14588811_3840_2160_30fps.mp4
+v|pexels|coaster|37482601|thrilling-roller-coaster-ride-under-blue-sky|1920x1080|9|30|The Influencer||37482601/15877669_1920_1080_30fps.mp4
+v|pexels|coaster|40268459|thrilling-roller-coaster-ride-with-city-view|2704x1520|23|30|Smitha Nittur|SmithaNittur|40268459/17199020_2562_1440_30fps.mp4
+v|pexels|rides|34720022|thrilling-amusement-park-ride-under-blue-skies|1920x1080|8|30|German Suarez||34720022/14717499_1920_1080_30fps.mp4
+v|pexels|rides|19759460|parque|1920x1080|29|60|Alex Agrico|Sofus|19759460/19759460-hd_1920_1080_60fps.mp4
+v|pexels|rides|1810155|people-enjoying-a-caterpillar-ride|1920x1080|26|30|Suzy Hazelwood|suzyhazelwood|1810155/1810155-hd_1920_1080_30fps.mp4
+v|pexels|rides|11492996|spinning-carousel-at-carnival|1920x1080|5|24|John Biondo|JLBDigital|11492996/11492996-hd_1920_1080_24fps.mp4
+v|pexels|rides|4476065|people-travel-amusement-park-ferris-wheel|1920x1080|25|30|Hirsh Philippe||4476065/4476065-hd_1920_1080_30fps.mp4
+v|pexels|rides|856125|people-at-the-amusement-park|2704x1524|30|30|Pixabay|pixabay|856125/856125-uhd_2556_1440_30fps.mp4
+v|pexels|rides|1748439|people-having-fun-in-the-rides|1920x1080|89|30|Suzy Hazelwood|suzyhazelwood|1748439/1748439-hd_1920_1080_30fps.mp4
+v|pexels|rides|3922607|low-angle-footage-of-a-rides|1920x1080|40|24|Luis Quintero|jibarofoto|3922607/3922607-hd_1920_1080_24fps.mp4
+v|pexels|rides|4673279|ride-in-the-park|1920x1080|10|24|Michael Noel||4673279/4673279-hd_1920_1080_24fps.mp4
+v|pexels|rides|12614842|people-on-a-spinning-swing-ride|1920x1080|14|30|Marc K||12614842/12614842-hd_1920_1080_30fps.mp4
+v|pexels|rides|28000859|a-ferris-wheel-with-red-and-orange-colors|1920x1080|6|24|AP Vibes|APVibes|28000859/12285931_1920_1080_24fps.mp4
+v|pexels|rides|28000863|a-tall-tower-with-a-red-and-orange-color|1920x1080|26|24|AP Vibes|APVibes|28000863/12285973_1920_1080_24fps.mp4
+v|pexels|rides|39345914|high-flying-fun-at-summer-amusement-park|3840x2160|12|25|Florian Delée||39345914/16746672_3840_2160_25fps.mp4
+v|pexels|rides|27444492|ferris-wheel-close-up-against-clear-blue-sky|1920x1080|24|60|Çağrı KANMAZ|cagrikanmaz|27444492/12146325_1920_1080_60fps.mp4
+v|pexels|rides|36388260|giant-ferris-wheel-against-clear-blue-sky|3840x2160|15|30|Engin Akyurt|enginakyurt|36388260/15431451_3840_2160_30fps.mp4
+v|pexels|night|29959500|exciting-nighttime-amusement-park-ride-adventure|3840x2160|13|60|Julio Lopez|juliolopez|29959500/12856721_3840_2160_60fps.mp4
+v|pexels|night|35876721|thrilling-night-ride-at-amusement-park|3840x2160|9|60|Mariano Quintero||35876721/15215879_3840_2160_60fps.mp4
+v|pexels|night|35876724|colorful-nighttime-thrill-ride-at-amusement-park|3840x2160|15|60|Mariano Quintero||35876724/15215804_3840_2160_60fps.mp4
+v|pexels|night|35876719|nighttime-carousel-at-amusement-park|3840x2160|14|60|Mariano Quintero||35876719/15215935_3840_2160_60fps.mp4
+v|pexels|night|27349952|colorful-carousel-ride-at-night-in-amusement-park|1920x1080|24|60|Çağrı KANMAZ|cagrikanmaz|27349952/12121084_1920_1080_60fps.mp4
+v|pexels|night|29831554|vibrant-nighttime-amusement-park-rides|3840x2160|30|30|eQzit||29831554/12812333_3840_2160_30fps.mp4
+v|pexels|night|39257413|stunning-night-view-of-amusement-park-ride|3840x2160|16|25|Florian Delée||39257413/16702917_3840_2160_25fps.mp4
+v|pexels|night|13690884|ferris-wheel-at-night|3840x1620|10|24|Dimitri Baret||13690884/13690884-uhd_3840_1620_24fps.mp4
+v|pexels|night|20621392|night-scene-in-fair-view|3840x2160|16|30|GK Kumawat||20621392/20621392-uhd_3840_2160_30fps.mp4
+v|pexels|night|1601345|ferris-wheel-with-lights|1920x1080|27|30|Ronald Hayward|haywardfineartphotography|1601345/1601345-hd_1920_1080_30fps.mp4
+v|pexels|night|2963867|ferris-wheel|3840x2160|34|25|Engin Akyurt|enginakyurt|2963867/2963867-uhd_3840_2160_25fps.mp4
+v|pexels|night|3116906|a-red-ferris-wheel-on-a-fairground|1920x1080|37|25|Atakan Ozkan||3116906/3116906-hd_1920_1080_25fps.mp4
+v|pexels|night|3509314|a-red-ferris-wheel|1920x1080|9|25|Nicki Vlachou||3509314/3509314-hd_1920_1080_25fps.mp4
+v|pexels|night|3614804|wooden-sculptures-of-horses-in-a-carousel-ride|3840x2160|5|25|Piotr Wróbel||3614804/3614804-uhd_3840_2160_25fps.mp4
+v|pexels|night|4053776|lights-display-on-a-spinning-observation-wheel|1920x1080|32|24|Rathan Reddy||4053776/4053776-hd_1920_1080_24fps.mp4
+v|pexels|night|5525939|low-angle-view-of-chain-swing-ride-at-night|1920x1080|13|24|Wain Megapix||5525939/5525939-hd_1920_1080_24fps.mp4
+v|pexels|night|6890334|spinning-ferris-wheel|3840x2160|11|30|John Biondo|JLBDigital|6890334/6890334-uhd_3840_2160_30fps.mp4
+v|pexels|night|10767636|low-angle-shot-of-an-illuminated-carousel|1920x1080|17|30|Bogdan Krupin|bogdankrupin|10767636/10767636-hd_1920_1080_30fps.mp4
+v|pexels|night|10895838|empty-carousel-at-night|1920x1080|13|25|Dario Lucky||10895838/10895838-hd_1920_1080_25fps.mp4
+v|pexels|night|11726139|ferris-wheel-at-night|3840x2160|9|30|winrood lee|Laole|11726139/11726139-uhd_3840_2160_30fps.mp4
+v|pexels|night|13002908|blurred-video-of-carousel|1920x1080|21|30|Åke Wall||13002908/13002908-hd_1920_1080_30fps.mp4
+v|pexels|night|14516592|ferris-wheel-at-night|1920x1080|60|25|ZHRØ||14516592/14516592-hd_1920_1080_25fps.mp4
+v|pexels|night|17134485|carnival|3840x2160|20|25|Alex Agrico|Sofus|17134485/17134485-uhd_3840_2160_25fps.mp4
+v|pexels|night|19240149|a-carousel-with-horses-and-people-on-it|1920x1080|9|30|Adem İlhande||19240149/19240149-hd_1920_1080_30fps.mp4
+v|pexels|night|19894295|giant-wheel-in-exhibition-for-children|3840x2160|15|30|Surya Mahesh Karanam|Suryamaheshkaranam|19894295/19894295-uhd_3840_2160_30fps.mp4
+v|pexels|night|26575925|amusement-park|3840x2160|16|30|Vitaliy Haiduk||26575925/11962968_3840_2160_30fps.mp4
+v|pexels|night|27350096|colorful-illuminated-ferris-wheel-at-night|1920x1080|24|60|Çağrı KANMAZ|cagrikanmaz|27350096/12121129_1920_1080_60fps.mp4
+v|pexels|night|28858945|illuminated-carousel-at-dusk-in-town-square|3840x2160|13|60|Philippe WEICKMANN|weickmann|28858945/12497314_3840_2160_60fps.mp4
+v|pexels|night|28886175|aerial-night-view-of-illuminated-ferris-wheel|2560x1440|8|30|Siarhei Dalivelia|siarheidalivelia|28886175/12504499_2560_1440_30fps.mp4
+v|pexels|night|29181823|vibrant-nighttime-carnival-ride-experience|3840x2160|14|30|Cyriac von Czapiewski||29181823/12600656_3840_2160_30fps.mp4
+v|pexels|night|29353630|vibrant-nighttime-amusement-park-ride|3840x2160|24|60|Mika Mark||29353630/12650124_3840_2160_60fps.mp4
+v|pexels|night|29733061|vibrant-ferris-wheel-at-night-with-festive-lights|3840x2160|13|25|Ivan Georgiev|IvanDesignx|29733061/12781677_3840_2160_25fps.mp4
+v|pexels|night|29831448|exciting-night-ride-at-vibrant-amusement-park|3840x2160|46|30|eQzit||29831448/12812311_3840_2160_30fps.mp4
+v|pexels|night|30021380|vibrant-carousel-at-night|3840x2160|13|24|Mihaela Claudia Puscas||30021380/12880531_3840_2160_24fps.mp4
+v|pexels|night|31210326|colorful-ferris-wheel-at-night-reflecting-on-water|4096x2160|59|24|Engin Akyurt|enginakyurt|31210326/13331992_4096_2160_24fps.mp4
+v|pexels|night|32072016|colorful-ferris-wheel-at-twilight-in-amusement-park|3840x2160|5|25|Siarhei Dalivelia|siarheidalivelia|32072016/13671300_3840_2160_25fps.mp4
+v|pexels|night|32072285|vibrant-ferris-wheel-at-sunset|3840x2160|9|25|Siarhei Dalivelia|siarheidalivelia|32072285/13671402_3840_2160_25fps.mp4
+v|pexels|night|32668864|exciting-bumper-cars-ride-at-night|3840x2160|6|30|Nuno Barbosa||32668864/13928734_3840_2160_30fps.mp4
+v|pexels|aerial|13582509|amusement-park-in-city|3840x2160|39|30|Sebastien Devaux||13582509/13582509-uhd_3840_2160_30fps.mp4
+v|pexels|aerial|20453549|sunset-park-de-el-salvador|3840x2160|18|30|Filmmakers Studio||20453549/20453549-uhd_3840_2160_30fps.mp4
+v|pexels|aerial|32409527|aerial-view-of-amusement-park-at-sunset|3840x2160|34|30|Malcoln Oliveira|malcolnphoto|32409527/13824882_3840_2160_30fps.mp4
+v|pexels|aerial|32963336|aerial-view-of-amusement-park-with-vibrant-slides|3840x2160|13|24|K|kelly|32963336/14049285_3840_2160_24fps.mp4
+v|pexels|aerial|38618465|aerial-view-of-colorful-amusement-park|1920x1080|10|60|umar muazu||38618465/16402627_1920_1080_60fps.mp4
+v|pexels|aerial|38618468|exciting-aerial-view-of-thrilling-amusement-park|1920x1080|10|60|umar muazu||38618468/16402626_1920_1080_60fps.mp4
+v|pexels|aerial|35364472|aerial-view-of-festive-nighttime-amusement-park|3840x2160|12|30|Oscar Arce|elavispon|35364472/14983691_3840_2160_30fps.mp4
+v|pexels|aerial|6115291|a-drone-footage-of-an-amusement-park|1920x1080|12|24|Quad Pixel|quadpixel|6115291/6115291-hd_1920_1080_24fps.mp4
+v|pexels|aerial|7670915|aerial-footage-of-a-ferris-wheel|1920x1080|12|30|Abdullah Alnasser||7670915/7670915-hd_1920_1080_30fps.mp4
+v|pexels|aerial|9445930|drone-footage-of-a-amusement-park|3840x2160|26|24|K|kelly|9445930/9445930-uhd_3840_2160_24fps.mp4
+v|pexels|aerial|9445934|aerial-footage-of-a-ride-in-an-amusement-park|3840x2160|26|24|K|kelly|9445934/9445934-uhd_3840_2160_24fps.mp4
+v|pexels|aerial|11553328|top-view-of-amusement-park|2688x1512|27|60|Djordje Vanjek||11553328/11553328-uhd_2560_1440_60fps.mp4
+v|pexels|aerial|30287199|aerial-view-of-theme-park-ride-thrill|1920x1080|39|30|PUWOOK Kwak|ILOVEPHOTOS|30287199/12983138_1920_1080_30fps.mp4
+v|pexels|aerial|18173496|seaside-fair-at-night|3840x2160|28|30|Scott Unfried||18173496/18173496-uhd_3840_2160_30fps.mp4
+v|pexels|aerial|18175099|county-fair-at-dusk-by-the-ocean|3840x2160|37|30|Scott Unfried||18175099/18175099-uhd_3840_2160_30fps.mp4
+v|pexels|aerial|18175103|county-fair-at-dusk-by-the-ocean|3840x2160|27|30|Scott Unfried||18175103/18175103-uhd_3840_2160_30fps.mp4
+v|pexels|aerial|19130222|small-town-carnival|3840x2160|22|30|michael hernandez||19130222/19130222-uhd_3840_2160_30fps.mp4
+v|pexels|aerial|20230796|a-ferris-wheel-in-the-sky-at-night|3840x2160|15|30|Aerial Glimpses|aerialglimpses|20230796/20230796-uhd_3840_2160_30fps.mp4
+v|pexels|aerial|20629761|aerial-view-of-the-carnival-at-night|1920x1080|41|30|Fuzail Ahmad|timfuzail|20629761/20629761-hd_1920_1080_30fps.mp4
+v|pexels|aerial|31297186|aerial-view-of-amusement-park-rides-in-city-park|3840x2160|8|60|Kenan Turguç|kenanturguc|31297186/13363731_3840_2160_60fps.mp4
+v|pexels|aerial|32079020|aerial-view-of-illuminated-ferris-wheel-at-twilight|3840x2160|16|25|Siarhei Dalivelia|siarheidalivelia|32079020/13674456_3840_2160_25fps.mp4
+v|pexels|aerial|32409526|aerial-view-of-amusement-park-at-dusk|3840x2160|36|30|Malcoln Oliveira|malcolnphoto|32409526/13824888_3840_2160_30fps.mp4
+v|pexels|aerial|34430978|aerial-view-of-colorful-amusement-park|3840x2160|15|30|Aleson Padilha||34430978/14588937_3840_2160_30fps.mp4
+v|pexels|aerial|35364473|aerial-view-of-illuminated-night-carnival|3840x2160|19|30|Oscar Arce|elavispon|35364473/14983683_3840_2160_30fps.mp4
+v|pexels|aerial|35364477|vibrant-nighttime-carnival-aerial-view|3840x2160|14|30|Oscar Arce|elavispon|35364477/14983685_3840_2160_30fps.mp4
+v|pexels|aerial|37304489|scenic-sunset-over-amusement-park-ferris-wheel|3840x2160|14|30|小小 兵||37304489/15802158_3840_2160_30fps.mp4
+v|pexels|family|1763023|carousel-ride|1920x1080|71|30|Suzy Hazelwood|suzyhazelwood|1763023/1763023-hd_1920_1080_30fps.mp4
+v|pexels|family|8522321|an-amusement-ride-in-the-carnival|1920x1080|12|30|Анатолий||8522321/8522321-hd_1920_1080_30fps.mp4
+v|pexels|family|10767634|children-and-parents-on-a-vintage-carousel|1920x1080|22|30|Bogdan Krupin|bogdankrupin|10767634/10767634-hd_1920_1080_30fps.mp4
+v|pexels|family|19574995|childrens-carousel|1920x1080|7|50|Atlantic Ambience|freestockpro|19574995/19574995-hd_1920_1080_50fps.mp4
+v|pexels|family|27223774|carousel-in-a-city-square|3840x2160|12|30|Samar Layek||27223774/12098534_3840_2160_30fps.mp4
+v|pexels|family|32037153|children-enjoying-bright-carousel-ride-at-night|1920x1080|7|60|Houssam benamara|Exeroniq|32037153/13655937_1920_1080_60fps.mp4
+v|pexels|family|32820838|exciting-carnival-ride-with-joyful-riders|1920x1080|12|30|David Pickup|davidpickup|32820838/13989879_1920_1080_30fps.mp4
+v|pexels|family|34400461|vibrant-nighttime-carnival-ride-on-carousel|2160x3840|13|32|Caetano||34400461/14573777_2160_3840_32fps.mp4
+v|pexels|family|34995309|colorful-nighttime-amusement-park-ride|3840x2160|40|32|Saulo Nulo|shahcian|34995309/14826222_3840_2160_32fps.mp4
+v|pexels|family|35098737|colorful-night-carousel-ride-at-amusement-park|3840x2160|30|30|Saulo Nulo|shahcian|35098737/14869588_3840_2160_30fps.mp4
+v|pexels|family|35639525|nighttime-ferris-wheel-at-vibrant-street-carnival|2160x3840|7|30|apertur 2.8|aperture|35639525/15103996_2160_3840_30fps.mp4
+v|pexels|family|35812347|swing-carousel-ride-at-night-carnival-fiesta|3840x1644|6|60|Nandu||35812347/15183906_3364_1440_60fps.mp4
+v|pexels|family|35844445|vibrant-carousel-ride-at-tropical-fairground|3840x2160|9|30|Arturo García Segura||35844445/15199390_3840_2160_30fps.mp4
+v|pexels|family|38626793|vibrant-carnival-carousel-in-motion|3840x2160|5|25|Selim Karadayı|selimkrdy|38626793/16404876_3840_2160_25fps.mp4
+v|pexels|family|10366306|people-riding-in-motorboat-in-amusement-park|1920x1080|9|30|Cheng||10366306/10366306-hd_1920_1080_30fps.mp4
+v|pexels|food|4512876|night-food-market|1920x1080|21|30|宋 小天||4512876/4512876-hd_1920_1080_30fps.mp4
+v|pexels|food|6184158|busy-street-at-night|1920x1080|5|25|Pew Nguyen|nguyendesigner|6184158/6184158-hd_1920_1080_25fps.mp4
+v|pexels|food|7033771|a-macro-shot-of-gummy-tape-candies|3840x2160|18|25|Tima Miroshnichenko|tima-miroshnichenko|7033771/7033771-uhd_3840_2160_25fps.mp4
+v|pexels|food|7033787|zoom-in-video-of-candies|3840x2160|12|25|Tima Miroshnichenko|tima-miroshnichenko|7033787/7033787-uhd_3840_2160_25fps.mp4
+v|pexels|food|7677398|close-up-video-of-a-popcorn|1920x1080|8|25|Mikhail Nilov|Mikhail-Nilov|7677398/7677398-hd_1920_1080_25fps.mp4
+v|pexels|food|8384696|girl-eating-cotton-candy|3840x2160|15|24|RDNE Stock project|rdne|8384696/8384696-uhd_3840_2160_24fps.mp4
+v|pexels|food|8385521|kids-eating-cotton-candy|3840x2160|9|24|RDNE Stock project|rdne|8385521/8385521-uhd_3840_2160_24fps.mp4
+v|pexels|food|15014059|pink-and-blue-ice-cream|1920x1080|12|24|23 Audiovisual|23Audiovisual|15014059/15014059-hd_1920_1080_24fps.mp4
+v|pexels|food|15721552|a-group-of-people-standing-around-a-food-stand|1920x1080|22|24|khanhhoangminh|khanhhoangminh|15721552/15721552-hd_1920_1080_24fps.mp4
+v|pexels|food|27810299|a-night-time-view-of-a-food-stand|3840x2160|6|25|LayG Traveller||27810299/12229974_3840_2160_25fps.mp4
+v|pexels|shows|3912831|people-doing-acrobatic-show|3840x2160|13|25|Steve B||3912831/3912831-uhd_3840_2160_25fps.mp4
+v|pexels|shows|4017465|people-at-a-parade|3840x2160|8|30|Sosa Films|SOSAFILMS|4017465/4017465-uhd_3840_2160_30fps.mp4
+v|pexels|shows|4205707|a-drone-shot-of-a-circus-tent|3840x2160|13|25|Jozef Papp||4205707/4205707-uhd_3840_2160_25fps.mp4
+v|pexels|shows|7857635|man-performing-with-lights|1920x1080|15|25|Denys Gromov|jdgromov|7857635/7857635-hd_1920_1080_25fps.mp4
+v|pexels|shows|8396596|a-circus-performer|1920x1080|59|30|Антон Варфоломеев||8396596/8396596-hd_1920_1080_30fps.mp4
+v|pexels|shows|8515272|handheld-shot-of-spotlights|3840x2160|25|25|Big Bag Films|bigbagfilms|8515272/8515272-uhd_3840_2160_25fps.mp4
+v|pexels|shows|8627312|fireworks-on-night-sky|1920x1080|21|30|Elmer Rivera||8627312/8627312-hd_1920_1080_30fps.mp4
+v|pexels|shows|10003356|man-performing-stunts-in-circus|1920x1080|20|25|Chrlz||10003356/10003356-hd_1920_1080_25fps.mp4
+v|pexels|shows|11336421|light-show-at-swimming-pool|1920x1080|56|30|Glenn Langhorst||11336421/11336421-hd_1920_1080_30fps.mp4
+v|pexels|shows|12684084|firework-display-in-the-sky-at-night|3840x2160|55|60|Shakhawat Tuhin||12684084/12684084-uhd_3840_2160_60fps.mp4
+v|pexels|shows|12714597|slow-motion-shot-of-fireworks-exploding-in-the-sky|1920x1080|21|24|Guidance Pillar Production||12714597/12714597-hd_1920_1080_24fps.mp4
+v|pexels|shows|12781233|illuminated-structure-at-night|3840x2160|27|25|Magda Ehlers|Magda-Ehlers-Pexels|12781233/12781233-uhd_3840_2160_25fps.mp4
+v|pexels|water|3724012|a-birds-eye-view-of-a-water-resort-park|3840x2160|44|30|Tom Fisk|tomfisk|3724012/3724012-uhd_3840_2160_30fps.mp4
+v|pexels|water|4223279|drone-footage-of-a-water-park|1920x1080|17|30|Mervin Enao|mervinenao|4223279/4223279-hd_1920_1080_30fps.mp4
+v|pexels|water|4929171|girl-at-a-water-park|1920x1080|14|25|Denys Gromov|jdgromov|4929171/4929171-hd_1920_1080_25fps.mp4
+v|pexels|water|4929175|kids-having-fun-at-a-water-park|1920x1080|15|25|Denys Gromov|jdgromov|4929175/4929175-hd_1920_1080_25fps.mp4
+v|pexels|water|7691635|drone-footage-of-a-water-park|3840x2160|25|30|Tom Fisk|tomfisk|7691635/7691635-uhd_3840_2160_30fps.mp4
+v|pexels|water|7775191|aerial-shot-of-water-park|3840x2160|19|25|Taryn Elliott|taryn-elliott|7775191/7775191-uhd_3840_2160_25fps.mp4
+v|pexels|water|13177212|slides-in-water-park|1920x1080|42|30|Bùi Hoàng Long|Dxaxoxfz|13177212/13177212-hd_1920_1080_30fps.mp4
+v|pexels|water|13177226|people-in-water-park|1920x1080|20|30|Bùi Hoàng Long|Dxaxoxfz|13177226/13177226-hd_1920_1080_30fps.mp4
+v|pexels|water|13666398|water-park-in-city|1920x1080|14|30|Nam Tran||13666398/13666398-hd_1920_1080_30fps.mp4
+v|pexels|water|29892356|colorful-water-park-adventure-on-a-sunny-day|3840x2160|12|60|Kushan Shamika|kushanshamika|29892356/12832629_3840_2160_60fps.mp4
+v|pexels|water|32934736|aerial-view-of-vibrant-water-park-with-pool|3840x2160|9|60|Kenan Turguç|kenanturguc|32934736/14036688_3840_2160_60fps.mp4
+v|coverr|rides|1234|coverr-colorful-carousel-1234|0x0|||Coverr||https://cdn.coverr.co/videos/coverr-colorful-carousel-1234/1080p.mp4
+v|coverr|rides|2628|coverr-carousel-in-action-2628|0x0|||Coverr||https://cdn.coverr.co/videos/coverr-carousel-in-action-2628/1080p.mp4
+v|coverr|night|244|coverr-bokeh-carousel-lights-244|0x0|||Coverr||https://cdn.coverr.co/videos/coverr-bokeh-carousel-lights-244/1080p.mp4
+p|pexels|rides|18242958|young-people-on-a-funfair-ride-against-blue-sky|5000x3235|||Rohi Bernard Codillo||
+p|pexels|coaster|749064|white-and-yellow-roller-coaster|4256x2832|||Min An|Minan1398|
+p|pexels|night|13406162|red-and-white-ferris-wheel-during-nighttime|7952x5304|||Vladimir Srajber|vladimirsrajber|
+p|pexels|night|4161880|the-ferris-wheel-under-the-starry-sky|5667x3790|||Francesco Sgura||
+p|pexels|shows|12571649|fireworks-in-the-sky-at-nighttime|6000x4000|||Денис Нагайцев||
+p|pexels|night|19346727|fairground-illuminated-at-night|6000x4000|||Keith Lobo|k3ithvision|
+p|pexels|night|1336429|amusement-park-at-night|5118x3412|||Hasan Albari|hasanalbari|
+p|pexels|night|682347|silhouettes-in-front-of-a-circus-ride|6000x4000|||Francesco Paggiaro|PaggiaroFrancesco|
+p|pexels|night|35024347|vibrant-amusement-park-rides-at-night|5140x2891|||Siglinde Luise||
+p|pexels|night|25820351|amusement-park-rides-glowing-at-night|6000x4000|||Justin Schlesinger||
+p|pexels|night|12483042|neon-signs-of-a-ride|6000x4000|||Monia Pacha||
+p|pexels|night|277256|timelapse-photography-of-carnival|5217x3478|||Pixabay|pixabay|
+p|pexels|aerial|33273893|aerial-view-of-colorful-carnival|5472x3648|||Mike Lewis||
+p|pexels|aerial|30870516|aerial-view-of-colorful-play-structures-in-forest|5464x3640|||Radek Przybyłek||
+p|pexels|aerial|38831752|nighttime-aerial-view-of-amusement-park|5464x3640|||Diego Lopez|DISALOMO|
+p|pexels|aerial|14869717|aerial-view-of-a-roller-coaster|5472x3648|||jd garrett|jdgarrettdotcom|
+p|pexels|night|19256504|decorated-carousel-at-night|7830x5223|||Zois Fotis|lichtberlin|
+p|pexels|night|14715813|illuminated-carousel-at-night|5184x3456|||Doğu Tuncer||
+p|pexels|night|15121572|carousel-with-light-bulbs|5333x4000|||Elizaveta Mitenkova||
+p|pexels|night|33634575|vibrant-carousel-spinning-at-night|4436x2957|||Mert Çelik||
+p|pexels|night|36522291|vibrant-night-carousel-in-motion|7000x4667|||Beyzaa||
+p|pexels|night|1403653|carousel-with-lights|5529x4000|||Mihai Vlasceanu|Vlasceanu|
+p|pexels|coaster|10807092|roller-coaster-under-clear-blue-sky|3387x1928|||Olia Nayda|olianayda|
+p|pexels|rides|18242966|man-screaming-on-a-ride|5000x3327|||Rohi Bernard Codillo||
+p|pexels|family|15895632|bumper-cars|6720x4480|||Patrick|Jaralol|
+p|pexels|water|13760398|water-park-pools-and-slides|7952x5304|||Quang Nguyen Vinh||
+p|pexels|water|10067450|swimming-pools-with-slides|4990x3324|||Ollie Craig|OllieCraig1|
+p|pexels|water|31166924|water-slide-with-inner-tube|6016x4000|||Vika Glitter||
+p|pexels|food|13472355|cotton-candy-in-hand|4896x3264|||Rumeysa Akbaş||
+p|pexels|food|8530945|eating-green-cotton-candy|5472x3648|||Breno Cardoso|brenocardosofotografia|
+p|pexels|food|8530911|cotton-candy-on-the-grass|5472x3648|||Breno Cardoso|brenocardosofotografia|
+p|pexels|food|8385004|a-boy-eating-cotton-candy|6720x4480|||RDNE Stock project|rdne|
+p|pexels|food|10477112|glass-with-cotton-candy|6240x4160|||Nataliya Vaitkevich|n-voitkevich|
+p|pexels|shows|27051702|view-of-fireworks-at-night|5081x3867|||Robert So|robertkso|
+p|pexels|shows|266497|fireworks|3888x2592|||Pixabay|pixabay|
+p|pexels|shows|949592|low-angle-photo-of-fireworks|3000x2000|||rovenimages.com||
+p|pexels|shows|36715186|vibrant-fireworks-display-at-night|6240x4160|||Jobert Enamno|jobzky|
+p|pexels|shows|33253|fireworks-display|6000x4000|||Pixabay|pixabay|
+p|pexels|family|29410928|vibrant-carousel-ride-at-amusement-park|6240x4160|||Zaur Hajizada||
+p|pexels|family|11071451|carousel-in-summer|4828x3198|||Steward Masweneng|stewphotography|
+p|pexels|family|15255680|carousels-in-amusement-park|6000x4000|||Troy Guo||

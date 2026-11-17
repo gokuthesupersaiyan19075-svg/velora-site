@@ -1,0 +1,10 @@
+# Cloudflare Pages redirects (mirrors next.config.ts redirects)
+/cinematic/*   /wonderverse/:splat   302
+/cinematic     /wonderverse          302
+/adrenaline/*  /thrillverse/:splat   302
+/adrenaline    /thrillverse          302
+/concept-a/*   /wonderverse/:splat   302
+/concept-b/*   /thrillverse/:splat   302
+/concept-c/*   /                     302
+/universe/*    /                     302
+/universe      /                     302
